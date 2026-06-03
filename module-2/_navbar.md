@@ -1,0 +1,10 @@
+- [← All Modules](/)
+- **Module 2**
+- [Lesson 1 — Spec Sheets](/module-2/#lesson-1-reading-specification-sheets)
+- [Lesson 2 — LED Drivers](/module-2/#lesson-2-led-drivers-explained)
+- [Lesson 3 — Dimming](/module-2/#lesson-3-dimming-protocols)
+- [Lesson 4 — Beam Angles](/module-2/#lesson-4-beam-angles-light-distribution)
+- [Lesson 5 — Outdoor Distribution](/module-2/#lesson-5-outdoor-light-distribution-types-ies)
+- [Lesson 6 — Power Factor](/module-2/#lesson-6-power-factor-thd)
+- [Lesson 7 — IES Files](/module-2/#lesson-7-photometric-data-ies-files)
+- [Lesson 8 — Controls](/module-2/#lesson-8-lighting-controls-sensors)

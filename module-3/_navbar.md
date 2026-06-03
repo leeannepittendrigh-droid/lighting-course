@@ -1,0 +1,8 @@
+- [← All Modules](/)
+- **Module 3**
+- [Lesson 1 — NEC](/module-3/#lesson-1-national-electrical-code-nec)
+- [Lesson 2 — NFPA 101](/module-3/#lesson-2-nfpa-101-life-safety-code)
+- [Lesson 3 — Energy Codes](/module-3/#lesson-3-energy-codes)
+- [Lesson 4 — UL & ETL](/module-3/#lesson-4-safety-certifications-ul-etl)
+- [Lesson 5 — DLC & ENERGY STAR](/module-3/#lesson-5-dlc-energy-star)
+- [Lesson 6 — IP & IK Ratings](/module-3/#lesson-6-ip-ik-ratings)

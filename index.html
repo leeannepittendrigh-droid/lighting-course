@@ -555,17 +555,125 @@
     }
 
     /* ============================================================
-       PROGRESS BAR
+       NPROGRESS (page load bar)
        ============================================================ */
     #nprogress .bar {
       background: var(--orange) !important;
       height: 3px !important;
     }
+       ============================================================ */
+    #reading-progress {
+      position: fixed;
+      top: 56px;
+      left: 0;
+      width: 0%;
+      height: 3px;
+      background: linear-gradient(90deg, var(--orange), #F9A84D);
+      z-index: 200;
+      transition: width 0.1s linear;
+      border-radius: 0 2px 2px 0;
+    }
+
+    /* ============================================================
+       BACK TO TOP BUTTON
+       ============================================================ */
+    #back-to-top {
+      position: fixed;
+      bottom: 32px;
+      right: 32px;
+      width: 44px;
+      height: 44px;
+      background: var(--navy);
+      color: #FFFFFF;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(13,27,62,0.25);
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 0.25s, transform 0.25s, background 0.15s;
+      z-index: 150;
+      pointer-events: none;
+    }
+
+    #back-to-top.visible {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: all;
+    }
+
+    #back-to-top:hover {
+      background: var(--navy-light);
+    }
+
+    /* ============================================================
+       MODULE NAVBAR — lesson links context
+       ============================================================ */
+
+    /* Module label (the **Module 2** bold item) */
+    .app-nav li > strong {
+      font-family: var(--font-ui);
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--orange) !important;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0 8px;
+      pointer-events: none;
+    }
+
+    /* Back to modules link */
+    .app-nav a[href="/"],
+    .app-nav a[href="#/"] {
+      color: rgba(255,255,255,0.5) !important;
+      font-size: 0.78rem !important;
+      border-right: 1px solid rgba(255,255,255,0.12) !important;
+      border-radius: 0 !important;
+      padding-right: 16px !important;
+      margin-right: 8px !important;
+    }
+
+    .app-nav a[href="/"]:hover,
+    .app-nav a[href="#/"]:hover {
+      color: rgba(255,255,255,0.85) !important;
+      background: none !important;
+    }
+
+    /* Scrollable nav on module pages */
+    .app-nav ul {
+      overflow-x: auto !important;
+      flex-wrap: nowrap !important;
+      scrollbar-width: none !important;
+    }
+
+    .app-nav ul::-webkit-scrollbar { display: none; }
+
+    /* ============================================================
+       LESSON ANCHOR HIGHLIGHT
+       — flash orange when jumping to a section
+       ============================================================ */
+    .markdown-section h2:target,
+    .markdown-section h3:target {
+      animation: anchorFlash 1s ease;
+    }
+
+    @keyframes anchorFlash {
+      0%   { background: rgba(244,123,32,0.15); }
+      100% { background: transparent; }
+    }
+
+
 
   </style>
 </head>
 <body>
-  <div id="app"></div>
+<div id="app"></div>
+  <div id="reading-progress"></div>
+  <button id="back-to-top" title="Back to top">↑</button>
 
   <script>
     window.$docsify = {
@@ -574,6 +682,7 @@
       loadNavbar: true,
       loadSidebar: false,
       subMaxLevel: 0,
+      mergeNavbar: true,
       auto2top: true,
       homepage: 'README.md',
       search: {
@@ -607,6 +716,29 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <script>
+    // Reading progress bar + back to top
+    var progressBar = document.getElementById('reading-progress');
+    var backToTop   = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', function() {
+      var scrollTop    = window.scrollY;
+      var docHeight    = document.documentElement.scrollHeight - window.innerHeight;
+      var progress     = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      progressBar.style.width = progress + '%';
+
+      if (scrollTop > 400) {
+        backToTop.classList.add('visible');
+      } else {
+        backToTop.classList.remove('visible');
+      }
+    });
+
+    backToTop.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
 
 </body>
 </html>
