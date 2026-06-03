@@ -16,6 +16,19 @@
 
 ---
 
+## Lessons in This Module
+
+| # | Lesson | Topics Covered |
+|---|--------|---------------|
+| 1 | [National Electrical Code (NEC)](#lesson-1-national-electrical-code-nec) | Key articles, wet/damp locations, clearances, grounding, labeling |
+| 2 | [NFPA 101 Life Safety Code](#lesson-2-nfpa-101-life-safety-code) | Emergency lighting, 1 fc minimum, 90-minute runtime, exit signs, testing |
+| 3 | [Energy Codes](#lesson-3-energy-codes) | LPD, ASHRAE 90.1, IECC, Title 24, mandatory controls, compliance docs |
+| 4 | [Safety Certifications — UL & ETL](#lesson-4-safety-certifications-ul-etl) | What UL/ETL mean, key standards, wet/damp ratings |
+| 5 | [DLC & ENERGY STAR](#lesson-5-dlc-energy-star) | DLC Standard vs. Premium, rebate impact, QPL, ENERGY STAR comparison |
+| 6 | [IP & IK Ratings](#lesson-6-ip-ik-ratings) | Full rating tables, what to specify for outdoor and high-impact environments |
+
+---
+
 ## Lesson 1: National Electrical Code (NEC)
 
 ### What Is the NEC?

@@ -14,6 +14,21 @@
 
 ---
 
+## Lessons in This Module
+
+| # | Lesson | Topics Covered |
+|---|--------|---------------|
+| 1 | [Reading Specification Sheets](#lesson-1-reading-specification-sheets) | Product ID, electrical specs, photometric data, IP ratings, certifications, warranty |
+| 2 | [LED Drivers Explained](#lesson-2-led-drivers-explained) | Constant current vs. voltage, internal vs. external, driver specs |
+| 3 | [Dimming Protocols](#lesson-3-dimming-protocols) | 0–10V, DALI, TRIAC, DMX — when to use each |
+| 4 | [Beam Angles & Light Distribution](#lesson-4-beam-angles-light-distribution) | Narrow/medium/wide beam, field angle, application defaults |
+| 5 | [Outdoor Distribution Types](#lesson-5-outdoor-light-distribution-types-ies) | IES Type I–V, how to choose for parking lots and walkways |
+| 6 | [Power Factor & THD](#lesson-6-power-factor-thd) | What PF and THD mean, why they matter, what to look for |
+| 7 | [Photometric Data & IES Files](#lesson-7-photometric-data-ies-files) | Candela, polar curves, spacing criteria, IES files |
+| 8 | [Lighting Controls & Sensors](#lesson-8-lighting-controls-sensors) | Occupancy sensors, daylight harvesting, networked controls |
+
+---
+
 ## Electrical Basics Primer
 
 Before diving into specifications, a quick review of essential electrical concepts.

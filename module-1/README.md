@@ -11,6 +11,16 @@
 
 ---
 
+## Lessons in This Module
+
+| # | Lesson | Topics Covered |
+|---|--------|---------------|
+| 1 | [Units & Measurements](#lesson-1-units-measurements) | Lumens, watts, efficacy, foot-candles, IES standards, CCT, CRI |
+| 2 | [Lighting Technologies](#lesson-2-lighting-technologies) | LED, fluorescent, HID — advantages, limitations, when to use each |
+| 3 | [Fixture Categories](#lesson-3-fixture-categories) | Troffers, panels, high bays, downlights, area lights, wall packs, canopy, emergency |
+
+---
+
 ## Lesson 1: Units & Measurements
 
 ### The Language of Light
