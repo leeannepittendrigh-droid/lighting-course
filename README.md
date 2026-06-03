@@ -49,4 +49,4 @@ NEC, NFPA 101 emergency lighting, energy codes (ASHRAE 90.1, IECC, Title 24), UL
 
 ---
 
-*Course maintained by [your company name]. Last updated: 2025.*
+*Course maintained by DC Consulting. Last updated: 2025.*
