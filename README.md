@@ -6,7 +6,7 @@
 
 <div class="module-cards">
 
-  <div class="module-card">
+  <div class="module-card" onclick="window.location='#/module-1/'">
     <div class="module-card-header">
       <span class="module-number">01</span>
       <span class="module-duration">2.5 hours</span>
@@ -18,10 +18,10 @@
       <li>LED, fluorescent &amp; HID technologies</li>
       <li>Fixture categories &amp; applications</li>
     </ul>
-    <a href="#/module-1/" class="module-card-btn">Start Module 1 →</a>
+    <div class="module-card-btn">Start Module 1 →</div>
   </div>
 
-  <div class="module-card">
+  <div class="module-card" onclick="window.location='#/module-2/'">
     <div class="module-card-header">
       <span class="module-number">02</span>
       <span class="module-duration">3–4 hours</span>
@@ -33,10 +33,10 @@
       <li>Dimming protocols &amp; beam angles</li>
       <li>Power factor, IES files &amp; controls</li>
     </ul>
-    <a href="#/module-2/" class="module-card-btn">Start Module 2 →</a>
+    <div class="module-card-btn">Start Module 2 →</div>
   </div>
 
-  <div class="module-card">
+  <div class="module-card" onclick="window.location='#/module-3/'">
     <div class="module-card-header">
       <span class="module-number">03</span>
       <span class="module-duration">3–4 hours</span>
@@ -48,7 +48,7 @@
       <li>Energy codes — ASHRAE, IECC, Title 24</li>
       <li>UL, ETL, DLC &amp; IP ratings</li>
     </ul>
-    <a href="#/module-3/" class="module-card-btn">Start Module 3 →</a>
+    <div class="module-card-btn">Start Module 3 →</div>
   </div>
 
 </div>
@@ -57,5 +57,5 @@
   <div class="course-meta-item">📋 <strong>3 modules</strong></div>
   <div class="course-meta-item">⏱ <strong>9–11 hours total</strong></div>
   <div class="course-meta-item">✅ <strong>80% to pass each quiz</strong></div>
-  <div class="course-meta-item">📖 <strong>Work in order</strong></div>
+  <div class="course-meta-item">📖 <strong>Work through in order</strong></div>
 </div>

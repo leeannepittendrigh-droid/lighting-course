@@ -12,7 +12,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <style>
     /* ============================================================
@@ -31,8 +31,8 @@
       --border-light: #EEF1F8;
       --text:         #1A2035;
       --text-muted:   #5A6480;
-      --font-ui:      'Manrope', sans-serif;
-      --font-body:    'Inter', sans-serif;
+      --font-ui:      'Plus Jakarta Sans', sans-serif;
+      --font-body:    'Plus Jakarta Sans', sans-serif;
       --radius:       8px;
       --radius-lg:    12px;
       --shadow:       0 2px 20px rgba(13,27,62,0.09);
@@ -193,13 +193,19 @@
       padding: 28px;
       display: flex;
       flex-direction: column;
-      transition: box-shadow 0.2s, transform 0.2s;
+      transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
       box-shadow: 0 1px 4px rgba(13,27,62,0.06);
+      cursor: pointer;
     }
 
     .module-card:hover {
-      box-shadow: 0 8px 32px rgba(13,27,62,0.12);
-      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(13,27,62,0.14);
+      transform: translateY(-3px);
+      border-color: var(--navy);
+    }
+
+    .module-card:hover .module-card-btn {
+      background: var(--navy-light) !important;
     }
 
     .module-card-header {
@@ -282,14 +288,25 @@
       font-size: 0.82rem !important;
       text-decoration: none !important;
       border: none !important;
+      border-bottom: none !important;
       transition: background 0.15s;
       margin-top: auto;
     }
 
-    .module-card-btn:hover {
+    /* Docsify base theme overrides — re-assert button text color */
+    .markdown-section .module-card-btn,
+    .markdown-section .module-card .module-card-btn,
+    section.cover .module-card-btn {
+      color: #FFFFFF !important;
+      border-bottom: none !important;
+    }
+
+    .module-card-btn:hover,
+    .markdown-section .module-card-btn:hover {
       background: var(--navy-light) !important;
       color: #FFFFFF !important;
       border: none !important;
+      border-bottom: none !important;
     }
 
     /* Course meta bar */
@@ -443,6 +460,13 @@
     /* ============================================================
        TABLES
        ============================================================ */
+
+    /* Docsify wraps tables in a div — override it */
+    .markdown-section > div[style*="overflow"] {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+
     .markdown-section table {
       width: 100% !important;
       border-collapse: collapse !important;
@@ -561,6 +585,9 @@
       background: var(--orange) !important;
       height: 3px !important;
     }
+
+    /* ============================================================
+       READING PROGRESS BAR
        ============================================================ */
     #reading-progress {
       position: fixed;
@@ -706,6 +733,16 @@
                 bq.style.borderLeftColor = '#C0392B';
                 bq.style.background = '#FDF2F2';
               }
+            });
+          });
+        },
+        /* Force card button text white after render */
+        function(hook) {
+          hook.doneEach(function() {
+            document.querySelectorAll('.module-card-btn').forEach(function(btn) {
+              btn.style.setProperty('color', '#FFFFFF', 'important');
+              btn.style.setProperty('border-bottom', 'none', 'important');
+              btn.style.setProperty('text-decoration', 'none', 'important');
             });
           });
         }
