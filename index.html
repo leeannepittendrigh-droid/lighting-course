@@ -468,6 +468,9 @@
     }
 
     .markdown-section table {
+      display: table !important; /* Docsify's theme sets display:block for mobile scroll —
+                                     that breaks the table layout algorithm so the header/rows
+                                     never stretch to fill the 100% width below. Reset it. */
       width: 100% !important;
       border-collapse: collapse !important;
       margin: 20px 0 !important;
@@ -515,6 +518,63 @@
       font-weight: 500 !important;
       color: var(--navy) !important;
     }
+
+    /* ============================================================
+       TABLE INTERACTIVITY — sortable columns + searchable glossary
+       (added by clc-table-enhance.js, see bottom of page)
+       ============================================================ */
+    .markdown-section table.clc-sortable thead th {
+      cursor: pointer !important;
+      user-select: none !important;
+      white-space: nowrap !important;
+    }
+    .markdown-section table.clc-sortable thead th:hover {
+      background: rgba(255,255,255,0.1) !important;
+    }
+    .markdown-section table.clc-sortable thead th .clc-caret {
+      display: inline-block;
+      margin-left: 5px;
+      font-size: 0.7em;
+      opacity: 0.35;
+    }
+    .markdown-section table.clc-sortable thead th.clc-sorted .clc-caret {
+      opacity: 1;
+      color: var(--orange) !important;
+    }
+
+    .clc-glossary-wrap { margin: 20px 0 !important; }
+    .clc-glossary-search {
+      width: 100% !important;
+      font-family: var(--font-ui) !important;
+      font-size: 0.88rem !important;
+      padding: 9px 13px !important;
+      border: 1px solid var(--border) !important;
+      border-radius: var(--radius) !important;
+      background: var(--bg-content) !important;
+      color: var(--text) !important;
+      margin-bottom: 10px !important;
+      box-sizing: border-box !important;
+    }
+    .clc-glossary-search:focus {
+      outline: none !important;
+      border-color: var(--orange) !important;
+      box-shadow: 0 0 0 3px var(--orange-soft) !important;
+    }
+    .clc-glossary-scroll {
+      max-height: 320px !important;
+      overflow-y: auto !important;
+      border-radius: var(--radius-lg) !important;
+      box-shadow: 0 0 0 1px var(--border) !important;
+    }
+    .clc-glossary-scroll table { margin: 0 !important; box-shadow: none !important; }
+    .clc-glossary-scroll thead th { position: sticky !important; top: 0 !important; z-index: 1 !important; }
+    .clc-glossary-empty {
+      padding: 16px !important;
+      text-align: center !important;
+      color: var(--text-muted) !important;
+      font-size: 0.85rem !important;
+    }
+    tr.clc-hidden { display: none !important; }
 
     /* ============================================================
        LISTS
@@ -743,6 +803,104 @@
               btn.style.setProperty('color', '#FFFFFF', 'important');
               btn.style.setProperty('border-bottom', 'none', 'important');
               btn.style.setProperty('text-decoration', 'none', 'important');
+            });
+          });
+        },
+        /* Table interactivity: click-to-sort on comparison tables,
+           search + sticky header on any table under a "Glossary" heading */
+        function(hook) {
+          hook.doneEach(function() {
+            var container = document.querySelector('.markdown-section');
+            if (!container) return;
+
+            function precedingHeadingText(table) {
+              var all = Array.prototype.slice.call(container.querySelectorAll('h1,h2,h3,h4,table'));
+              var idx = all.indexOf(table);
+              for (var i = idx - 1; i >= 0; i--) {
+                if (/^H[1-4]$/.test(all[i].tagName)) return all[i].textContent || '';
+              }
+              return '';
+            }
+
+            function enhanceSortable(table) {
+              table.classList.add('clc-sortable');
+              var ths = Array.prototype.slice.call(table.querySelectorAll('thead th'));
+              var state = { idx: null, dir: 1 };
+              ths.forEach(function(th, idx) {
+                var caret = document.createElement('span');
+                caret.className = 'clc-caret';
+                caret.textContent = '▲';
+                th.appendChild(caret);
+                th.addEventListener('click', function() {
+                  var dir = (state.idx === idx) ? -state.dir : 1;
+                  state = { idx: idx, dir: dir };
+                  ths.forEach(function(h, i) {
+                    h.classList.toggle('clc-sorted', i === idx);
+                    var c = h.querySelector('.clc-caret');
+                    c.textContent = (i === idx && dir === -1) ? '▼' : '▲';
+                  });
+                  var tbody = table.querySelector('tbody');
+                  var rows = Array.prototype.slice.call(tbody.querySelectorAll('tr'));
+                  rows.sort(function(a, b) {
+                    var ta = (a.children[idx] ? a.children[idx].textContent : '').trim();
+                    var tb = (b.children[idx] ? b.children[idx].textContent : '').trim();
+                    var na = parseFloat(ta.replace(/[^0-9.\-]/g, ''));
+                    var nb = parseFloat(tb.replace(/[^0-9.\-]/g, ''));
+                    var numeric = !isNaN(na) && !isNaN(nb) && /\d/.test(ta) && /\d/.test(tb);
+                    if (numeric) return (na - nb) * dir;
+                    return ta.toLowerCase().localeCompare(tb.toLowerCase()) * dir;
+                  });
+                  rows.forEach(function(r) { tbody.appendChild(r); });
+                });
+              });
+            }
+
+            function enhanceGlossary(table) {
+              var wrap = document.createElement('div');
+              wrap.className = 'clc-glossary-wrap';
+              var search = document.createElement('input');
+              search.type = 'text';
+              search.className = 'clc-glossary-search';
+              search.placeholder = 'Search terms or definitions…';
+              var scroll = document.createElement('div');
+              scroll.className = 'clc-glossary-scroll';
+              var empty = document.createElement('p');
+              empty.className = 'clc-glossary-empty';
+              empty.textContent = 'No terms match that search.';
+              empty.hidden = true;
+
+              table.parentNode.insertBefore(wrap, table);
+              wrap.appendChild(search);
+              wrap.appendChild(scroll);
+              scroll.appendChild(table);
+              wrap.appendChild(empty);
+
+              search.addEventListener('input', function() {
+                var q = search.value.trim().toLowerCase();
+                var rows = Array.prototype.slice.call(table.querySelectorAll('tbody tr'));
+                var visible = 0;
+                rows.forEach(function(r) {
+                  var match = r.textContent.toLowerCase().indexOf(q) !== -1;
+                  r.classList.toggle('clc-hidden', !match);
+                  if (match) visible++;
+                });
+                empty.hidden = visible !== 0;
+              });
+            }
+
+            container.querySelectorAll('table').forEach(function(table) {
+              if (table.dataset.clcEnhanced) return;
+              table.dataset.clcEnhanced = '1';
+
+              var heading = precedingHeadingText(table).toLowerCase();
+              var cols = table.querySelectorAll('thead th').length;
+              var rowCount = table.querySelectorAll('tbody tr').length;
+
+              if (heading.indexOf('glossary') !== -1 && cols === 2 && rowCount > 6) {
+                enhanceGlossary(table);
+              } else if (cols >= 2 && rowCount > 1) {
+                enhanceSortable(table);
+              }
             });
           });
         }
