@@ -7,4 +7,3 @@
 - [Lesson 5 — Outdoor Distribution](/module-2/#lesson-5-outdoor-light-distribution-types-ies)
 - [Lesson 6 — Power Factor](/module-2/#lesson-6-power-factor-thd)
 - [Lesson 7 — IES Files](/module-2/#lesson-7-photometric-data-ies-files)
-- [Lesson 8 — Controls](/module-2/#lesson-8-lighting-controls-sensors)

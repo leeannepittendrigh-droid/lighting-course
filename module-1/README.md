@@ -432,6 +432,14 @@ Activate during power outages to illuminate exit paths.
 
 ---
 
+## Module 1 Quiz
+
+Test your understanding of this module — 80% (8 of 10) required to pass.
+
+<div class="clc-quiz" data-quiz-id="module-1"></div>
+
+---
+
 ## Key Takeaways
 
 - ✅ Lumens = brightness, Watts = power consumption (not the same thing)

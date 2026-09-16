@@ -1,6 +1,6 @@
 # Module 3: Codes & Certifications
 
-> **Estimated Time:** 3–4 hours | **Prerequisites:** Modules 1 & 2 | **Pass Quiz:** 80% or higher
+> **Estimated Time:** 3–4 hours | **Prerequisites:** Modules 1, 2 & 2B | **Pass Quiz:** 80% or higher
 
 ## Why This Matters
 
@@ -507,6 +507,14 @@ ENERGY STAR matters most for residential-style commercial products, downlights a
 | IK10 | 20 joules | Vandal-resistant |
 
 **When IK matters:** IK08 is the standard for outdoor commercial applications (parking lots, wall packs). IK10 is for high-vandalism areas, sports facilities, ground-level fixtures, and gas stations.
+
+---
+
+## Module 3 Quiz
+
+Test your understanding of this module — 80% (8 of 10) required to pass.
+
+<div class="clc-quiz" data-quiz-id="module-3"></div>
 
 ---
 

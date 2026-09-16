@@ -24,16 +24,31 @@
   <div class="module-card" onclick="window.location='#/module-2/'">
     <div class="module-card-header">
       <span class="module-number">02</span>
-      <span class="module-duration">3–4 hours</span>
+      <span class="module-duration">2.5–3 hours</span>
     </div>
     <h3>Advanced Product Knowledge</h3>
     <p>Read spec sheets like a pro, understand drivers and dimming, and speak confidently with engineers and lighting designers.</p>
     <ul>
       <li>Specification sheets &amp; drivers</li>
       <li>Dimming protocols &amp; beam angles</li>
-      <li>Power factor, IES files &amp; controls</li>
+      <li>Power factor &amp; photometric/IES files</li>
     </ul>
     <div class="module-card-btn">Start Module 2 →</div>
+  </div>
+
+  <div class="module-card" onclick="window.location='#/module-2b/'">
+    <div class="module-card-header">
+      <span class="module-number">02B</span>
+      <span class="module-duration">1–1.5 hours</span>
+    </div>
+    <h3>Lighting Controls &amp; Sensors</h3>
+    <p>Occupancy and daylight sensors, and how networked controls tie it all together — good for another 30–60% in energy savings.</p>
+    <ul>
+      <li>Occupancy &amp; vacancy sensors</li>
+      <li>Daylight harvesting &amp; multi-level switching</li>
+      <li>Wired vs. wireless networked controls</li>
+    </ul>
+    <div class="module-card-btn">Start Module 2B →</div>
   </div>
 
   <div class="module-card" onclick="window.location='#/module-3/'">
@@ -54,8 +69,9 @@
 </div>
 
 <div class="course-meta">
-  <div class="course-meta-item">📋 <strong>3 modules</strong></div>
-  <div class="course-meta-item">⏱ <strong>9–11 hours total</strong></div>
+  <div class="course-meta-item">📋 <strong>4 modules</strong></div>
+  <div class="course-meta-item">⏱ <strong>9–11.5 hours total</strong></div>
   <div class="course-meta-item">✅ <strong>80% to pass each quiz</strong></div>
+  <div class="course-meta-item">🔍 <a href="#/glossary/" style="color:inherit">Searchable glossary</a></div>
   <div class="course-meta-item">📖 <strong>Work through in order</strong></div>
 </div>

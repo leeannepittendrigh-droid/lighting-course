@@ -1,6 +1,6 @@
 # Module 2: Advanced Product Knowledge
 
-> **Estimated Time:** 3–4 hours | **Prerequisites:** Module 1 – Lighting Fundamentals | **Pass Quiz:** 80% or higher
+> **Estimated Time:** 2.5–3 hours | **Prerequisites:** Module 1 – Lighting Fundamentals | **Pass Quiz:** 80% or higher
 
 ## Why This Matters
 
@@ -14,7 +14,6 @@ Module 1 taught you the fundamentals. Now it's time to get technical. This modul
 - Understand power factor and total harmonic distortion (THD)
 - Read and use photometric data
 - Specify dimming options and controls
-- Understand sensor and control integration
 
 ---
 
@@ -29,7 +28,8 @@ Module 1 taught you the fundamentals. Now it's time to get technical. This modul
 | 5 | [Outdoor Light Distribution Types](#lesson-5-outdoor-light-distribution-types-ies) | IES Type I–V, how to choose for parking lots and walkways |
 | 6 | [Power Factor & THD](#lesson-6-power-factor-thd) | What PF and THD mean, why they matter, what to look for |
 | 7 | [Photometric Data & IES Files](#lesson-7-photometric-data-ies-files) | Candela, polar curves, spacing criteria, IES files |
-| 8 | [Lighting Controls & Sensors](#lesson-8-lighting-controls-sensors) | Occupancy sensors, daylight harvesting, networked controls |
+
+> Lighting controls and sensors — occupancy sensing, daylight harvesting, networked controls — now have their own short module: [Module 2B — Lighting Controls & Sensors](/module-2b/).
 
 ---
 
@@ -492,7 +492,14 @@ Power factor measures how efficiently electrical power is being used by a device
 
 **Why it matters:** Low PF means higher electricity bills (utilities charge for wasted power) and more stressed electrical systems. Many utilities require PF ≥ 0.90 for commercial installations, and low PF can affect rebate eligibility.
 
-**The technical explanation (simplified):** In AC systems there are three kinds of power:
+**What good PF looks like:** Minimum 0.90 | Good: 0.90–0.95 | Excellent: 0.95+ (some reach 0.98). Most building codes and utility rebates require ≥ 0.90.
+
+> 💡 **Beginner Tip:** When reviewing spec sheets, just verify PF ≥ 0.90. If it meets that, you're good — don't worry about the technical details below.
+
+<details>
+<summary>🔍 Going deeper: the math behind Power Factor</summary>
+
+In AC systems there are three kinds of power:
 - **Real Power (kW)** — actual work done; this is what lights up your LEDs
 - **Reactive Power (kVAR)** — wasted energy that sloshes back and forth without doing useful work, created by motors, transformers, and some LED drivers
 - **Apparent Power (kVA)** — the total power the utility has to provide (real + reactive)
@@ -500,8 +507,6 @@ Power factor measures how efficiently electrical power is being used by a device
 **Formula:** `PF = Real Power ÷ Apparent Power`
 
 **Example:** A fixture uses 50 kW of real power, but the utility has to supply 55 kVA total. PF = 50 ÷ 55 = **0.91** (91% efficient).
-
-**What good PF looks like:** Minimum 0.90 | Good: 0.90–0.95 | Excellent: 0.95+ (some reach 0.98). Most building codes and utility rebates require ≥ 0.90.
 
 **PF in practice — 100 fixtures at 100W each:**
 
@@ -512,19 +517,24 @@ Power factor measures how efficiently electrical power is being used by a device
 
 At 0.70 PF, the building's electrical system has to handle 14.3 kVA instead of 10.5 kVA — more load on wiring, panels, and transformers, and higher demand charges from the utility.
 
-> 💡 **Beginner Tip:** When reviewing spec sheets, just verify PF ≥ 0.90. If it meets that, you're good — don't worry about the technical details.
+</details>
 
 ### Understanding Total Harmonic Distortion (THD)
 
 THD measures how "clean" the electrical current is. Think of it like noise in an audio system: low THD (< 10%) is a clean, crystal-clear signal; high THD (> 30%) is noisy, like static-filled audio. Perfect AC power is a smooth sine wave; poor LED drivers distort this into a choppy, irregular wave.
 
-**Why THD matters:** High THD causes overheating of transformers and neutral wires, equipment malfunction, reduced electrical system efficiency, and potential resonance issues. Building electrical engineers, utility companies, and electrical inspectors (in some jurisdictions) all care about THD.
-
 **What good THD looks like:** Excellent: < 10% | Good: 10–20% | Acceptable: < 20% | Poor: > 20% (avoid if possible).
 
-**THD in practice:** Low THD (< 10%) means premium LED drivers, cleaner power draw, and better compatibility with the building electrical system — usually at a slightly higher cost. High THD (> 25%) usually means budget LED drivers, which can cause problems in large installations and may violate codes or utility requirements.
-
 > 💡 **Beginner Tip:** Look for THD < 20% as a minimum. If the spec sheet doesn't list THD at all, that's a red flag about driver quality.
+
+<details>
+<summary>🔍 Going deeper: why THD matters and what it looks like in practice</summary>
+
+High THD causes overheating of transformers and neutral wires, equipment malfunction, reduced electrical system efficiency, and potential resonance issues. Building electrical engineers, utility companies, and electrical inspectors (in some jurisdictions) all care about THD.
+
+Low THD (< 10%) means premium LED drivers, cleaner power draw, and better compatibility with the building electrical system — usually at a slightly higher cost. High THD (> 25%) usually means budget LED drivers, which can cause problems in large installations and may violate codes or utility requirements.
+
+</details>
 
 ### Power Factor & THD Together
 
@@ -553,12 +563,19 @@ Photometric data tells you how light is distributed from a fixture — where the
 
 ### Polar Curves (Candela Distribution)
 
-A polar curve is a graph showing how light intensity varies in different directions from the fixture. Picture standing directly under the fixture, looking up: 0° is straight down (nadir), 45° is diagonal, 90° is horizontal (straight out to the sides), 180° is straight up. The curve plots candela values at each angle.
+A polar curve is a graph showing how light intensity varies in different directions from the fixture — narrow curves mean focused light, wide curves mean spread light.
+
+> 💡 **Beginner Tip:** Don't stress about reading polar curves in detail — lighting designers use software to interpret these. You mainly need to know: narrow curve = focused light, wide curve = spread light, and to match curve type to application (narrow for accent, wide for general).
+
+<details>
+<summary>🔍 Going deeper: how to actually read a polar curve</summary>
+
+Picture standing directly under the fixture, looking up: 0° is straight down (nadir), 45° is diagonal, 90° is horizontal (straight out to the sides), 180° is straight up. The curve plots candela values at each angle.
 
 - **Narrow distribution:** high candela at 0°, drops off quickly at wider angles — a focused "spotlight" effect
 - **Wide distribution:** more even candela across many angles — a broad "floodlight" effect
 
-> 💡 **Beginner Tip:** Don't stress about reading polar curves in detail — lighting designers use software to interpret these. You mainly need to know: narrow curve = focused light, wide curve = spread light, and to match curve type to application (narrow for accent, wide for general).
+</details>
 
 ### Spacing Criteria (SC)
 
@@ -575,7 +592,12 @@ Spacing Criteria tells you how far apart to space fixtures for even lighting.
 | 1.3–1.5 | Wide |
 | 1.5+ | Very wide (high bays, area lights) |
 
-**Why you care:** Spacing criteria helps you calculate fixture count. Example: a 60 ft × 40 ft room, SC = 1.2, mounting height = 10 ft → maximum spacing = 12 ft. That's 5 rows lengthwise (60 ÷ 12, rounded up) and 4 rows widthwise (40 ÷ 12, rounded up) — **24 fixtures total.**
+<details>
+<summary>🔍 Going deeper: using spacing criteria to calculate fixture count</summary>
+
+Spacing criteria helps you calculate fixture count. Example: a 60 ft × 40 ft room, SC = 1.2, mounting height = 10 ft → maximum spacing = 12 ft. That's 5 rows lengthwise (60 ÷ 12, rounded up) and 4 rows widthwise (40 ÷ 12, rounded up) — **24 fixtures total.**
+
+</details>
 
 ### IES Files
 
@@ -600,91 +622,11 @@ An **IES file** (`.ies`) is a standardized digital file containing all photometr
 
 ---
 
-## Lesson 8: Lighting Controls & Sensors
+## Module 2 Quiz
 
-### Why Controls Matter
+Test your understanding of this module — 80% (8 of 10) required to pass.
 
-Lighting controls can add **30–60% additional energy savings** beyond LED efficiency alone.
-
-**Example:** Replace a 400W metal halide with a 150W LED = 62% savings. Add occupancy sensors and daylight harvesting = another 40% savings on the remainder. **Total: 77% reduction.**
-
-Energy codes increasingly REQUIRE controls, rebates often require them for the maximum incentive, and customers want "smart" buildings. Specifying controls correctly is an additional profit opportunity — specifying the wrong controls means a system that doesn't work, callbacks, and complaints.
-
-### Basic Control Types
-
-- **Manual Switches** — traditional on/off wall switches; simple and cheap, but no energy savings unless people actually turn lights off. Still required by code (a space can't have only automatic controls).
-- **Timers** — turn lights on/off at set times; good for consistent schedules (retail stores, offices), but don't respond to actual occupancy or daylight.
-- **Occupancy Sensors** — detect presence and control lights automatically; the most common control type for energy savings, and required by most energy codes.
-- **Daylight Sensors** — detect natural light levels and dim or turn off electric lights when daylight is sufficient; required by energy codes near windows (typically within a 15 ft perimeter).
-- **Dimmers** — allow manual adjustment of light levels for ambiance (restaurants, hotels) or task tuning; can also be automatic, controlled by sensors.
-
-### Occupancy Sensors Explained
-
-Occupancy sensors detect people and control lighting automatically, saving energy because lights turn off when a space is unoccupied — people forget to turn lights off. Typical savings: **20–50%** depending on usage patterns.
-
-| Type | How It Works | Best For | Not Ideal For | Range |
-|---|---|---|---|---|
-| **PIR** (Passive Infrared) | "Sees" infrared heat and detects when a heat source moves through the space; does NOT detect stationary people well | Private offices, restrooms, break rooms, smaller spaces with clear movement | Large open areas (limited range); spaces where people sit still, since PIR might not detect them and turn lights off while they're working | 500–2,000 sq ft |
-| **Ultrasonic** | Bounces sound waves off objects, like sonar, and detects any movement — even small movements like typing; better at detecting stationary people than PIR | Spaces with obstructions (cubicles, storage racks), spaces where people are still for long periods, restrooms with stalls (PIR misses people in stalls) | Areas with lots of air movement — HVAC can cause false triggers | 1,000–3,000 sq ft |
-| **Dual-Technology** (PIR + Ultrasonic) | Requires BOTH technologies to agree before turning lights on (reduces false triggers); uses either technology to keep lights on (prevents false-off) | Any application where reliability is critical — the most versatile option | — | Higher cost than single-technology, but worth it for reliability |
-
-> 💡 **Decision Guide:** Private offices → PIR or Dual-tech | Open offices (cubicles) → Dual-tech or Ultrasonic | Restrooms → Ultrasonic (detects in stalls) | Warehouses → Dual-tech high-bay sensors | Classrooms → Dual-tech | Break rooms → PIR or Dual-tech
-
-### Occupancy vs. Vacancy Mode
-
-- **Occupancy Mode (Auto-On):** Lights turn ON automatically when you enter and OFF automatically when you leave — no manual action required. Best for restrooms, break rooms, storage areas, stairwells.
-- **Vacancy Mode (Manual-On, Auto-Off):** You manually turn lights ON when entering; they turn OFF automatically when you leave — this prevents nuisance activation. Best for private offices, classrooms, and spaces with windows where daylight may be sufficient.
-
-Some energy codes REQUIRE vacancy mode in certain spaces to prevent unnecessary activation.
-
-### Time-Based Controls
-
-- **Time Clocks** — turn lights on/off at preset times; good for retail stores (open 9am–9pm every day), offices (on at 6am, off at 7pm), and exterior lighting (on at dusk, off at dawn).
-- **Astronomical Time Clocks** — automatically adjust for sunrise/sunset changes throughout the year; ideal for exterior lighting (parking lots, building facades), since they don't need manual adjustment for daylight saving time.
-
-### Daylight Harvesting
-
-A system that dims or turns off electric lights when sufficient daylight is available. A photosensor measures light level — as daylight provides enough light, electric fixtures dim; as daylight fades, fixtures brighten back up, continuously and automatically.
-
-**Where required:** Areas within 15 feet of windows (perimeter zones), areas under skylights, and sometimes the entire space if it's a daylight zone. Required by ASHRAE 90.1, IECC, Title 24, and most energy codes.
-
-**Typical savings:** 20–40% in daylight zones.
-
-### Multi-Level Switching
-
-The ability to reduce lighting power by at least 50% using manual or automatic controls — via bi-level switching (two switches, turn half off), three-level switching (33%/66%/100%), or continuous dimming (dim to any level). Energy codes require multi-level control in most spaces.
-
-**Example:** An office with 20 fixtures — all on = 100%, half on = 50%, meeting the code requirement. Or with dimming, all fixtures dimmed to 50% meets the same requirement.
-
-### Task Tuning
-
-Reducing light levels to the appropriate amount for the task, rather than over-lighting. Example: an office designed for 50 fc, where the IES requirement is 30–50 fc, can be dimmed to 35 fc for **30% energy savings** while still meeting code. Many offices are over-lit — reducing to comfortable levels within the IES range saves energy and often improves occupant comfort.
-
-### Networked Lighting Controls
-
-Advanced systems where all fixtures and sensors communicate via a network, enabling central control from a computer or app, scheduling by zone, real-time occupancy data, energy usage monitoring, and integration with building automation. Examples: DALI networks, BACnet integration, proprietary systems (Lutron, Acuity Controls).
-
-**Communication technologies:**
-
-**Wired protocols:**
-- **DALI** — digital control via dedicated wires, fixture-level addressability
-- **BACnet** — integration protocol connecting lighting with HVAC, security, and other building systems
-- **0–10V** — analog dimming signal (covered in Lesson 3)
-
-**Wireless protocols:**
-- **Bluetooth Mesh** — wireless fixture control; fixtures form a "mesh" network communicating with each other, controlled via smartphone apps or cloud systems. Good for retrofits where new control wiring is difficult. Range: 30–100 ft per node.
-- **Zigbee** — low-power wireless protocol for building automation, often integrated with comprehensive building management systems, connecting lighting with HVAC, security, and access control. Range: 30–100 ft per node.
-
-**Emerging technology:**
-- **PoE (Power over Ethernet)** — delivers both power AND data through standard Ethernet cables, enabling deep integration with IT networks and fixture-level monitoring/control. Not yet mainstream, but growing — good for new construction, tech-forward companies, and data centers.
-
-**When to use wired vs. wireless:** Wired (0–10V, DALI) is the most reliable, proven technology — use it for most commercial projects. Wireless (Bluetooth, Zigbee) is best for retrofits where running new control wires is difficult or expensive. PoE is emerging — consider it for new construction when IT integration is a priority.
-
-> 💡 **Beginner Tip:** For most commercial projects, stick with proven wired controls — 0–10V for basic dimming, DALI for advanced control. Wireless and PoE are rapidly evolving, so always verify current manufacturer capabilities and compatibility before specifying.
-
-Networked systems are best for large commercial buildings, campuses, buildings with a building automation system (BAS), and projects wanting data/analytics. Cost is higher upfront but provides ongoing operational insights.
-
-> 💡 **Beginner Tip — control specification for most projects:** (1) Occupancy sensors in all enclosed spaces (dual-tech recommended). (2) Daylight sensors in perimeter zones (15 ft from windows). (3) Time scheduling for the overall building. (4) Manual dimming in conference rooms. This meets most energy codes and provides good savings.
+<div class="clc-quiz" data-quiz-id="module-2"></div>
 
 ---
 
@@ -697,7 +639,6 @@ Networked systems are best for large commercial buildings, campuses, buildings w
 - ✅ For outdoor fixtures, match IES distribution type to the space layout (Type III for most parking rows)
 - ✅ PF ≥ 0.90 and THD < 20% are your quality checkboxes
 - ✅ IES files are needed for photometric layouts and many permit applications
-- ✅ Controls add 30–60% additional savings beyond the LED upgrade itself
 
 ---
 
@@ -724,12 +665,7 @@ Networked systems are best for large commercial buildings, campuses, buildings w
 **Candela (cd):** Light intensity in a specific direction
 **Polar Curve:** Graph showing light distribution by angle
 **Spacing Criteria (SC):** Maximum spacing-to-mounting-height ratio
-**Occupancy Sensor:** Detects presence and controls lighting
-**PIR:** Passive Infrared sensor (detects heat/movement)
-**Ultrasonic:** Sensor using sound waves to detect movement
-**Daylight Harvesting:** Dimming electric lights when daylight is sufficient
-**Task Tuning:** Reducing light to appropriate levels within the IES range
 
 ---
 
-*Next: [Module 3 — Codes & Certifications](/module-3/)*
+*Next: [Module 2B — Lighting Controls & Sensors](/module-2b/)*
