@@ -283,6 +283,15 @@ Still common in many buildings — understand it to identify retrofit opportunit
 
 #### 1. Troffers
 
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![2x4 ft LED troffer, volumetric prismatic lens](images/troffer.jpg)
+
+<span class="clc-fixture-caption">Troffer</span>
+</div>
+</div>
+
 Recessed fixtures that fit into drop ceiling grids. This style dates back almost as far as the invention of ceiling grids and remains very popular — troffers are the most common fixture type in commercial buildings.
 
 **Common sizes:** 2×4 ft (most common), 2×2 ft *(not currently stocked)*, 1×4 ft *(not currently stocked)*
@@ -357,6 +366,27 @@ The classic bell-shaped look can still be achieved on a UFO high bay using a pol
 
 #### 4. Linear Style Fixtures
 
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![LED strip light fixture](images/linear-strip.jpg)
+
+<span class="clc-fixture-caption">Strip</span>
+</div>
+<div class="clc-fixture-photo">
+
+![Vapor-tight LED linear fixture, sealed housing](images/vapor-tight.jpg)
+
+<span class="clc-fixture-caption">Vapor-tight</span>
+</div>
+<div class="clc-fixture-photo">
+
+![Architectural linear LED fixture with built-in sensor, as used for a stairwell](images/stairwell-light.jpg)
+
+<span class="clc-fixture-caption">Architectural linear (stairwell)</span>
+</div>
+</div>
+
 Long, narrow fixtures for continuous lighting.
 
 **Types:**
@@ -392,6 +422,21 @@ Recessed ceiling lights that direct light downward.
 
 #### 6. Wall Packs
 
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![Adjustable LED wall pack, bronze housing](images/wall-pack-adjustable.jpg)
+
+<span class="clc-fixture-caption">Adjustable wall pack</span>
+</div>
+<div class="clc-fixture-photo">
+
+![Standard LED wall pack, bronze housing](images/wall-pack-standard.jpg)
+
+<span class="clc-fixture-caption">Standard wall pack</span>
+</div>
+</div>
+
 Wall-mounted outdoor fixtures for building perimeters. Every commercial building has them.
 
 **Types:** Full cutoff (dark sky compliant ✅), Semi-cutoff, Adjustable
@@ -403,6 +448,15 @@ Wall-mounted outdoor fixtures for building perimeters. Every commercial building
 ---
 
 #### 7. Garage Canopy Light
+
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![LED garage/canopy light, surface-mounted with clear lens](images/garage-canopy.jpg)
+
+<span class="clc-fixture-caption">Garage / canopy light</span>
+</div>
+</div>
 
 Surface-mounted for canopies, overhangs, and garage use. Often operates 24/7/365.
 
