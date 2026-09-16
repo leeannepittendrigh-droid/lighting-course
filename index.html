@@ -730,6 +730,79 @@
     .markdown-section details table:last-child { margin-bottom: 4px !important; }
 
     /* ============================================================
+       LESSON QUICK-NAV + COLLAPSIBLE LESSONS
+       Each "## Lesson N" heading is followed by a
+       <details class="clc-lesson-details"> wrapping the lesson body,
+       so long modules collapse to a scannable list of headings. The
+       .clc-lesson-nav box (rendered once per page, before Lesson 1)
+       jumps straight to any lesson/quiz/glossary via its :id= anchor.
+       ============================================================ */
+    .clc-lesson-nav {
+      background: var(--orange-soft) !important;
+      border: 1px solid #F9D9B8 !important;
+      border-radius: var(--radius-lg) !important;
+      padding: 14px 20px !important;
+      margin: 4px 0 28px !important;
+      font-size: 0.86rem !important;
+      line-height: 1.9 !important;
+    }
+
+    .clc-lesson-nav strong { color: var(--navy) !important; }
+
+    .clc-lesson-nav a {
+      color: var(--navy) !important;
+      font-weight: 600 !important;
+      text-decoration: none !important;
+      border-bottom: 1px dashed var(--navy-light) !important;
+    }
+
+    .clc-lesson-nav a:hover {
+      color: var(--orange-dark) !important;
+      border-bottom-color: var(--orange-dark) !important;
+    }
+
+    .clc-lesson-toggle-all {
+      display: block !important;
+      margin-top: 10px !important;
+      font-family: var(--font-ui) !important;
+      font-weight: 700 !important;
+      font-size: 0.76rem !important;
+      background: var(--navy) !important;
+      color: #FFFFFF !important;
+      border: none !important;
+      border-radius: var(--radius) !important;
+      padding: 7px 14px !important;
+      cursor: pointer !important;
+    }
+
+    .clc-lesson-toggle-all:hover { background: var(--navy-light) !important; }
+
+    /* Top-level lesson accordion (distinct from the smaller nested
+       "Going Deeper" details inside it) */
+    .markdown-section details.clc-lesson-details {
+      border-color: var(--navy-light) !important;
+      padding: 4px 20px !important;
+      margin: 10px 0 32px !important;
+    }
+
+    .markdown-section details.clc-lesson-details > summary.clc-lesson-summary {
+      font-size: 0.75rem !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.06em !important;
+      color: var(--text-muted) !important;
+    }
+
+    .markdown-section details.clc-lesson-details > summary.clc-lesson-summary:hover {
+      color: var(--orange-dark) !important;
+    }
+
+    /* Nested "Going Deeper" details inside a lesson accordion read as
+       secondary content */
+    .markdown-section details.clc-lesson-details details {
+      margin-left: 2px !important;
+    }
+
+    /* ============================================================
        MODULE QUIZ WIDGET
        (rendered by assets/quiz.js into <div class="clc-quiz">)
        ============================================================ */
@@ -1345,6 +1418,28 @@
             document.querySelectorAll('.clc-quiz[data-quiz-id]').forEach(function(el) {
               window.clcRenderQuiz(el, el.dataset.quizId);
             });
+          });
+        },
+        /* Lesson accordions: add an "Expand all lessons" toggle to the
+           .clc-lesson-nav box on any page that has collapsible lessons */
+        function(hook) {
+          hook.doneEach(function() {
+            var container = document.querySelector('.markdown-section');
+            if (!container) return;
+            var lessons = container.querySelectorAll('details.clc-lesson-details');
+            var nav = container.querySelector('.clc-lesson-nav');
+            if (!lessons.length || !nav || nav.querySelector('.clc-lesson-toggle-all')) return;
+
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'clc-lesson-toggle-all';
+            btn.textContent = 'Expand all lessons';
+            btn.addEventListener('click', function() {
+              var allOpen = Array.prototype.every.call(lessons, function(d) { return d.open; });
+              lessons.forEach(function(d) { d.open = !allOpen; });
+              btn.textContent = allOpen ? 'Expand all lessons' : 'Collapse all lessons';
+            });
+            nav.appendChild(btn);
           });
         },
         /* Page feedback widget: auto-appended to the bottom of every

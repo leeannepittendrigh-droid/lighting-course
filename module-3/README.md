@@ -22,16 +22,25 @@ Non-compliant lighting can result in failed inspections, rejected installations,
 
 | # | Lesson | Topics Covered |
 |---|--------|---------------|
-| 1 | [National Electrical Code (NEC)](#lesson-1-national-electrical-code-nec) | Key articles, wet/damp locations, clearances, grounding, working space, labeling |
-| 2 | [NFPA 101 Life Safety Code](#lesson-2-nfpa-101-life-safety-code) | Emergency lighting, 1 fc minimum, 90-minute runtime, exit signs, testing |
-| 3 | [Energy Codes](#lesson-3-energy-codes) | LPD, ASHRAE 90.1, IECC, Title 24, mandatory controls, compliance docs |
-| 4 | [Safety Certifications — UL & ETL](#lesson-4-safety-certifications-ul-etl) | What UL/ETL mean, key standards, wet/damp ratings |
-| 5 | [DLC & ENERGY STAR](#lesson-5-dlc-energy-star) | DLC Standard vs. Premium, what DLC tests, rebate impact, QPL, ENERGY STAR comparison |
-| 6 | [IP & IK Ratings](#lesson-6-ip-ik-ratings) | Full rating tables, what to specify for outdoor and high-impact environments |
+| 1 | [National Electrical Code (NEC)](#lesson-1) | Key articles, wet/damp locations, clearances, grounding, working space, labeling |
+| 2 | [NFPA 101 Life Safety Code](#lesson-2) | Emergency lighting, 1 fc minimum, 90-minute runtime, exit signs, testing |
+| 3 | [Energy Codes](#lesson-3) | LPD, ASHRAE 90.1, IECC, Title 24, mandatory controls, compliance docs |
+| 4 | [Safety Certifications — UL & ETL](#lesson-4) | What UL/ETL mean, key standards, wet/damp ratings |
+| 5 | [DLC & ENERGY STAR](#lesson-5) | DLC Standard vs. Premium, what DLC tests, rebate impact, QPL, ENERGY STAR comparison |
+| 6 | [IP & IK Ratings](#lesson-6) | Full rating tables, what to specify for outdoor and high-impact environments |
 
 ---
 
-## Lesson 1: National Electrical Code (NEC)
+<div class="clc-lesson-nav">
+
+**Jump to:** [Lesson 1](#lesson-1) &middot; [Lesson 2](#lesson-2) &middot; [Lesson 3](#lesson-3) &middot; [Lesson 4](#lesson-4) &middot; [Lesson 5](#lesson-5) &middot; [Lesson 6](#lesson-6) &middot; [Quiz](#quiz) &middot; [Key Takeaways](#key-takeaways) &middot; [Glossary](#glossary)
+
+</div>
+
+## Lesson 1: National Electrical Code (NEC) :id=lesson-1
+
+<details class="clc-lesson-details" open>
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### What Is the NEC?
 
@@ -124,7 +133,12 @@ The NEC requires fixtures to be labeled with: manufacturer name or trademark, vo
 
 ---
 
-## Lesson 2: NFPA 101 Life Safety Code
+</details>
+
+## Lesson 2: NFPA 101 Life Safety Code :id=lesson-2
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### What Is NFPA 101?
 
@@ -208,7 +222,12 @@ Always verify specific requirements for the occupancy type you're working with.
 
 ---
 
-## Lesson 3: Energy Codes
+</details>
+
+## Lesson 3: Energy Codes :id=lesson-3
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### Overview
 
@@ -311,7 +330,12 @@ California has the **most stringent energy code in the U.S.**
 
 ---
 
-## Lesson 4: Safety Certifications — UL & ETL
+</details>
+
+## Lesson 4: Safety Certifications — UL & ETL :id=lesson-4
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### Why Safety Certifications Matter
 
@@ -377,7 +401,12 @@ ETL stands for "Electrical Testing Laboratories," now owned by Intertek, a globa
 
 ---
 
-## Lesson 5: DLC & ENERGY STAR
+</details>
+
+## Lesson 5: DLC & ENERGY STAR :id=lesson-5
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### Understanding the DLC (DesignLights Consortium)
 
@@ -454,7 +483,12 @@ ENERGY STAR matters most for residential-style commercial products, downlights a
 
 ---
 
-## Lesson 6: IP & IK Ratings
+</details>
+
+## Lesson 6: IP & IK Ratings :id=lesson-6
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### IP Rating (Ingress Protection)
 
@@ -510,7 +544,9 @@ ENERGY STAR matters most for residential-style commercial products, downlights a
 
 ---
 
-## Module 3 Quiz
+</details>
+
+## Module 3 Quiz :id=quiz
 
 Test your understanding of this module — 80% (8 of 10) required to pass.
 
@@ -518,7 +554,7 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ---
 
-## Key Takeaways
+## Key Takeaways :id=key-takeaways
 
 - ✅ NEC Article 410 is your primary reference for fixture requirements
 - ✅ NFPA 101 emergency lighting: minimum 1 fc average / 0.1 fc minimum, 90-minute runtime, monthly and annual testing
@@ -530,7 +566,7 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ---
 
-## Glossary
+## Glossary :id=glossary
 
 | Term | Definition |
 |---|---|

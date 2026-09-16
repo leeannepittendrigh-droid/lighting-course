@@ -21,13 +21,13 @@ Module 1 taught you the fundamentals. Now it's time to get technical. This modul
 
 | # | Lesson | Topics Covered |
 |---|--------|---------------|
-| 1 | [Reading Specification Sheets](#lesson-1-reading-specification-sheets) | Product ID, electrical specs, photometric data, physical specs, environmental ratings, certifications, warranty |
-| 2 | [LED Drivers Explained](#lesson-2-led-drivers-explained) | Constant current vs. voltage, internal vs. external, driver specs |
-| 3 | [Dimming Protocols](#lesson-3-dimming-protocols) | 0–10V, DALI, TRIAC, DMX512 — when to use each |
-| 4 | [Beam Angles & Light Distribution](#lesson-4-beam-angles-light-distribution) | Narrow/medium/wide beam, field angle, application defaults |
-| 5 | [Outdoor Light Distribution Types](#lesson-5-outdoor-light-distribution-types-ies) | IES Type I–V, how to choose for parking lots and walkways |
-| 6 | [Power Factor & THD](#lesson-6-power-factor-thd) | What PF and THD mean, why they matter, what to look for |
-| 7 | [Photometric Data & IES Files](#lesson-7-photometric-data-ies-files) | Candela, polar curves, spacing criteria, IES files |
+| 1 | [Reading Specification Sheets](#lesson-1) | Product ID, electrical specs, photometric data, physical specs, environmental ratings, certifications, warranty |
+| 2 | [LED Drivers Explained](#lesson-2) | Constant current vs. voltage, internal vs. external, driver specs |
+| 3 | [Dimming Protocols](#lesson-3) | 0–10V, DALI, TRIAC, DMX512 — when to use each |
+| 4 | [Beam Angles & Light Distribution](#lesson-4) | Narrow/medium/wide beam, field angle, application defaults |
+| 5 | [Outdoor Light Distribution Types](#lesson-5) | IES Type I–V, how to choose for parking lots and walkways |
+| 6 | [Power Factor & THD](#lesson-6) | What PF and THD mean, why they matter, what to look for |
+| 7 | [Photometric Data & IES Files](#lesson-7) | Candela, polar curves, spacing criteria, IES files |
 
 > Lighting controls and sensors — occupancy sensing, daylight harvesting, networked controls — now have their own short module: [Module 2B — Lighting Controls & Sensors](/module-2b/).
 
@@ -62,7 +62,16 @@ Think of electricity like water flowing through pipes:
 
 ---
 
-## Lesson 1: Reading Specification Sheets
+<div class="clc-lesson-nav">
+
+**Jump to:** [Lesson 1](#lesson-1) &middot; [Lesson 2](#lesson-2) &middot; [Lesson 3](#lesson-3) &middot; [Lesson 4](#lesson-4) &middot; [Lesson 5](#lesson-5) &middot; [Lesson 6](#lesson-6) &middot; [Lesson 7](#lesson-7) &middot; [Quiz](#quiz) &middot; [Key Takeaways](#key-takeaways) &middot; [Glossary](#glossary)
+
+</div>
+
+## Lesson 1: Reading Specification Sheets :id=lesson-1
+
+<details class="clc-lesson-details" open>
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 Every fixture manufacturer provides specification sheets (spec sheets) containing all the technical information about their products. Learning to read these quickly and accurately is critical.
 
@@ -253,7 +262,12 @@ The fixture still works after this time — it will just be noticeably dimmer.
 
 ---
 
-## Lesson 2: LED Drivers Explained
+</details>
+
+## Lesson 2: LED Drivers Explained :id=lesson-2
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 An LED driver is the "power supply" for LED fixtures. Buildings have AC power, but LEDs need DC power — the driver converts AC to DC and regulates the power to keep the LEDs running properly. Think of it like the voltage regulator in your phone charger: it takes wall power and converts it to exactly what your phone needs.
 
@@ -304,7 +318,12 @@ When reviewing spec sheets, check:
 
 ---
 
-## Lesson 3: Dimming Protocols
+</details>
+
+## Lesson 3: Dimming Protocols :id=lesson-3
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### Why Dimming Matters
 
@@ -399,7 +418,12 @@ A digital protocol originally designed for stage lighting — very fast, and abl
 
 ---
 
-## Lesson 4: Beam Angles & Light Distribution
+</details>
+
+## Lesson 4: Beam Angles & Light Distribution :id=lesson-4
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### Understanding Beam Angles
 
@@ -441,7 +465,12 @@ Beam angle determines how focused or spread out the light is from a fixture — 
 
 ---
 
-## Lesson 5: Outdoor Light Distribution Types (IES)
+</details>
+
+## Lesson 5: Outdoor Light Distribution Types (IES) :id=lesson-5
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### Understanding IES Distribution Types
 
@@ -484,7 +513,12 @@ For outdoor pole-mounted fixtures (parking lots, roadways, etc.), we use standar
 
 ---
 
-## Lesson 6: Power Factor & THD
+</details>
+
+## Lesson 6: Power Factor & THD :id=lesson-6
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### Understanding Power Factor (PF)
 
@@ -547,7 +581,12 @@ Quality LED fixtures will have **both** PF ≥ 0.90 **and** THD < 20%.
 
 ---
 
-## Lesson 7: Photometric Data & IES Files
+</details>
+
+## Lesson 7: Photometric Data & IES Files :id=lesson-7
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### What Is Photometric Data?
 
@@ -622,7 +661,9 @@ An **IES file** (`.ies`) is a standardized digital file containing all photometr
 
 ---
 
-## Module 2 Quiz
+</details>
+
+## Module 2 Quiz :id=quiz
 
 Test your understanding of this module — 80% (8 of 10) required to pass.
 
@@ -630,7 +671,7 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ---
 
-## Key Takeaways
+## Key Takeaways :id=key-takeaways
 
 - ✅ Read spec sheets by section: electrical → photometric → physical → environmental → certifications → warranty
 - ✅ Drivers determine lifespan AND dimming capability — specify correctly
@@ -642,7 +683,7 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ---
 
-## Glossary
+## Glossary :id=glossary
 
 | Term | Definition |
 |---|---|

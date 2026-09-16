@@ -19,13 +19,22 @@ As an importer of commercial lighting products, you need to speak the language o
 
 | # | Lesson | Topics Covered |
 |---|--------|---------------|
-| 1 | [Units of Measurement & Standards](#lesson-1-units-of-measurement-standards) | Lumens, watts, efficacy, CCT, CRI, foot-candles, IES standards |
-| 2 | [Lighting Technologies](#lesson-2-lighting-technologies) | LED, fluorescent, HID — advantages, limitations, when to use each |
-| 3 | [Fixture Types](#lesson-3-fixture-types) | Troffers, panels, high bays, downlights, wall packs, canopy, area/flood lights, emergency |
+| 1 | [Units of Measurement & Standards](#lesson-1) | Lumens, watts, efficacy, CCT, CRI, foot-candles, IES standards |
+| 2 | [Lighting Technologies](#lesson-2) | LED, fluorescent, HID — advantages, limitations, when to use each |
+| 3 | [Fixture Types](#lesson-3) | Troffers, panels, high bays, downlights, wall packs, canopy, area/flood lights, emergency |
 
 ---
 
-## Lesson 1: Units of Measurement & Standards
+<div class="clc-lesson-nav">
+
+**Jump to:** [Lesson 1](#lesson-1) &middot; [Lesson 2](#lesson-2) &middot; [Lesson 3](#lesson-3) &middot; [Quiz](#quiz) &middot; [Key Takeaways](#key-takeaways) &middot; [Glossary](#glossary)
+
+</div>
+
+## Lesson 1: Units of Measurement & Standards :id=lesson-1
+
+<details class="clc-lesson-details" open>
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### The Language of Light
 
@@ -199,7 +208,12 @@ Lumens, watts, efficacy, CCT, CRI, and foot-candles are all *units of measuremen
 
 ---
 
-## Lesson 2: Lighting Technologies
+</details>
+
+## Lesson 2: Lighting Technologies :id=lesson-2
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### LED — Light Emitting Diode ✅ Dominant Technology
 
@@ -264,7 +278,12 @@ Still common in many buildings — understand it to identify retrofit opportunit
 
 ---
 
-## Lesson 3: Fixture Types
+</details>
+
+## Lesson 3: Fixture Types :id=lesson-3
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### Indoor Fixtures
 
@@ -432,7 +451,9 @@ Activate during power outages to illuminate exit paths.
 
 ---
 
-## Module 1 Quiz
+</details>
+
+## Module 1 Quiz :id=quiz
 
 Test your understanding of this module — 80% (8 of 10) required to pass.
 
@@ -440,7 +461,7 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ---
 
-## Key Takeaways
+## Key Takeaways :id=key-takeaways
 
 - ✅ Lumens = brightness, Watts = power consumption (not the same thing)
 - ✅ Efficacy (lm/W) is how you compare fixture efficiency
@@ -451,7 +472,7 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ---
 
-## Glossary
+## Glossary :id=glossary
 
 | Term | Definition |
 |---|---|
