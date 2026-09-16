@@ -864,6 +864,103 @@
     .clc-quiz-result-warn { background: var(--orange-soft) !important; color: var(--orange-dark) !important; border: 1px solid #F9D9B8 !important; }
 
     /* ============================================================
+       PAGE FEEDBACK WIDGET
+       (auto-appended to the end of every page by assets/feedback.js)
+       ============================================================ */
+    .clc-feedback-wrap {
+      margin: 32px 0 12px !important;
+      border: 1px solid var(--border) !important;
+      border-radius: var(--radius-lg) !important;
+      padding: 20px 24px !important;
+      background: var(--bg) !important;
+    }
+
+    .clc-feedback-title {
+      font-family: var(--font-ui) !important;
+      font-size: 0.95rem !important;
+      font-weight: 700 !important;
+      color: var(--navy) !important;
+      margin: 0 0 3px !important;
+    }
+
+    .clc-feedback-sub {
+      font-size: 0.8rem !important;
+      color: var(--text-muted) !important;
+      margin: 0 0 16px !important;
+    }
+
+    .clc-feedback-row {
+      display: flex !important;
+      gap: 12px !important;
+      flex-wrap: wrap !important;
+      margin-bottom: 12px !important;
+    }
+
+    .clc-feedback-field { flex: 1 1 200px !important; min-width: 160px !important; }
+
+    .clc-feedback-label {
+      display: block !important;
+      font-family: var(--font-ui) !important;
+      font-size: 0.72rem !important;
+      font-weight: 700 !important;
+      color: var(--navy) !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.06em !important;
+      margin-bottom: 6px !important;
+    }
+
+    .clc-feedback-select,
+    .clc-feedback-name-input,
+    .clc-feedback-textarea {
+      display: block !important;
+      width: 100% !important;
+      font-family: var(--font-body) !important;
+      font-size: 0.88rem !important;
+      padding: 9px 13px !important;
+      border: 1px solid var(--border) !important;
+      border-radius: var(--radius) !important;
+      background: var(--bg-content) !important;
+      color: var(--text) !important;
+      box-sizing: border-box !important;
+      font-weight: 400 !important;
+    }
+
+    .clc-feedback-textarea { resize: vertical !important; min-height: 72px !important; font-family: var(--font-body) !important; }
+
+    .clc-feedback-select:focus,
+    .clc-feedback-name-input:focus,
+    .clc-feedback-textarea:focus,
+    .clc-feedback-textarea.clc-feedback-error {
+      outline: none !important;
+      border-color: var(--orange) !important;
+    }
+
+    .clc-feedback-submit {
+      font-family: var(--font-ui) !important;
+      font-weight: 700 !important;
+      font-size: 0.85rem !important;
+      background: var(--navy) !important;
+      color: #FFFFFF !important;
+      border: none !important;
+      border-radius: var(--radius) !important;
+      padding: 10px 22px !important;
+      cursor: pointer !important;
+    }
+
+    .clc-feedback-submit:hover { background: var(--navy-light) !important; }
+    .clc-feedback-submit:disabled { opacity: 0.6 !important; cursor: default !important; }
+
+    .clc-feedback-result {
+      margin-top: 4px !important;
+      padding: 14px 16px !important;
+      border-radius: var(--radius) !important;
+      font-size: 0.88rem !important;
+      background: #E8F6ED !important;
+      color: #1E7A3D !important;
+      border: 1px solid #BEE6CB !important;
+    }
+
+    /* ============================================================
        LISTS
        ============================================================ */
     .markdown-section ul,
@@ -1072,6 +1169,23 @@
     <input type="text" name="timestamp">
   </form>
 
+  <!-- Static stub form so Netlify's build-time bot registers the
+       "course-feedback" form schema. Never shown or filled in by hand —
+       assets/feedback.js submits real feedback to this same form name
+       via a background fetch() POST to "/". This is the single form
+       used for both SME corrections and general learner feedback,
+       distinguished by the "type" field. Keep field names in sync with
+       what feedback.js actually sends. -->
+  <form name="course-feedback" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="course-feedback">
+    <input type="text" name="bot-field">
+    <input type="text" name="type">
+    <input type="text" name="page">
+    <input type="text" name="name">
+    <textarea name="comment"></textarea>
+    <input type="text" name="timestamp">
+  </form>
+
   <script>
     window.$docsify = {
       name: 'Commercial Lighting Essentials',
@@ -1232,12 +1346,25 @@
               window.clcRenderQuiz(el, el.dataset.quizId);
             });
           });
+        },
+        /* Page feedback widget: auto-appended to the bottom of every
+           page (no placeholder needed in the markdown) using
+           assets/feedback.js (loaded below) */
+        function(hook) {
+          hook.doneEach(function() {
+            if (typeof window.clcRenderFeedback !== 'function') return;
+            var container = document.querySelector('.markdown-section');
+            if (!container) return;
+            var pageId = (window.location.hash || '#/').replace(/^#/, '').split('?')[0] || '/';
+            window.clcRenderFeedback(container, pageId);
+          });
         }
       ]
     }
   </script>
 
   <script src="assets/quiz.js"></script>
+  <script src="assets/feedback.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
