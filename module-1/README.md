@@ -19,13 +19,16 @@ As an importer of commercial lighting products, you need to speak the language o
 
 | # | Lesson | Topics Covered |
 |---|--------|---------------|
-| 1 | [Units of Measurement & Standards](#lesson-1-units-of-measurement-standards) | Lumens, watts, efficacy, CCT, CRI, foot-candles, IES standards |
-| 2 | [Lighting Technologies](#lesson-2-lighting-technologies) | LED, fluorescent, HID — advantages, limitations, when to use each |
-| 3 | [Fixture Types](#lesson-3-fixture-types) | Troffers, panels, high bays, downlights, wall packs, canopy, area/flood lights, emergency |
+| 1 | [Units of Measurement & Standards](#lesson-1) | Lumens, watts, efficacy, CCT, CRI, foot-candles, IES standards |
+| 2 | [Lighting Technologies](#lesson-2) | LED, fluorescent, HID — advantages, limitations, when to use each |
+| 3 | [Fixture Types](#lesson-3) | Troffers, panels, high bays, downlights, wall packs, canopy, area/flood lights, emergency |
 
 ---
 
-## Lesson 1: Units of Measurement & Standards
+## Lesson 1: Units of Measurement & Standards :id=lesson-1
+
+<details class="clc-lesson-details" open>
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### The Language of Light
 
@@ -199,7 +202,12 @@ Lumens, watts, efficacy, CCT, CRI, and foot-candles are all *units of measuremen
 
 ---
 
-## Lesson 2: Lighting Technologies
+</details>
+
+## Lesson 2: Lighting Technologies :id=lesson-2
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### LED — Light Emitting Diode ✅ Dominant Technology
 
@@ -264,11 +272,25 @@ Still common in many buildings — understand it to identify retrofit opportunit
 
 ---
 
-## Lesson 3: Fixture Types
+</details>
+
+## Lesson 3: Fixture Types :id=lesson-3
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### Indoor Fixtures
 
 #### 1. Troffers
+
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![2x4 ft LED troffer, volumetric prismatic lens](images/troffer.jpg)
+
+<span class="clc-fixture-caption">Troffer</span>
+</div>
+</div>
 
 Recessed fixtures that fit into drop ceiling grids. This style dates back almost as far as the invention of ceiling grids and remains very popular — troffers are the most common fixture type in commercial buildings.
 
@@ -286,6 +308,15 @@ Recessed fixtures that fit into drop ceiling grids. This style dates back almost
 
 #### 2. Panels (Flat Panels)
 
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![2x2 ft LED flat panel fixture, recessed ceiling mount](images/panel.jpg)
+
+<span class="clc-fixture-caption">Flat panel</span>
+</div>
+</div>
+
 Surface-mounted or suspended ultra-thin fixtures.
 
 **Advantages:** Modern aesthetic, even light distribution, easy to install, thin profile (typically 0.5–2 inches thick).
@@ -297,6 +328,21 @@ Surface-mounted or suspended ultra-thin fixtures.
 ---
 
 #### 3. High Bays
+
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![UFO LED high bay fixture, black housing with hook mount](images/high-bay.jpg)
+
+<span class="clc-fixture-caption">UFO high bay</span>
+</div>
+<div class="clc-fixture-photo">
+
+![Linear LED high bay fixture, white housing](images/linear-high-bay.jpg)
+
+<span class="clc-fixture-caption">Linear high bay</span>
+</div>
+</div>
 
 For spaces with ceilings 15 feet and above. Replacing metal halide high bays with LED is one of the highest ROI projects in commercial lighting — often payback under 2 years.
 
@@ -320,6 +366,33 @@ The classic bell-shaped look can still be achieved on a UFO high bay using a pol
 
 #### 4. Linear Style Fixtures
 
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![LED strip light fixture](images/linear-strip.jpg)
+
+<span class="clc-fixture-caption">Strip</span>
+</div>
+<div class="clc-fixture-photo">
+
+![Vapor-tight LED linear fixture, sealed housing](images/vapor-tight.jpg)
+
+<span class="clc-fixture-caption">Vapor-tight</span>
+</div>
+<div class="clc-fixture-photo">
+
+![Stairwell LED linear fixture with built-in occupancy sensor](images/stairwell-light.jpg)
+
+<span class="clc-fixture-caption">Stairwell light (built-in sensor)</span>
+</div>
+<div class="clc-fixture-photo">
+
+![Architectural linear LED fixture, surface-mounted](images/architectural-linear.jpg)
+
+<span class="clc-fixture-caption">Architectural linear</span>
+</div>
+</div>
+
 Long, narrow fixtures for continuous lighting.
 
 **Types:**
@@ -331,6 +404,15 @@ Long, narrow fixtures for continuous lighting.
 ---
 
 #### 5. Downlights
+
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![Recessed LED downlight with remote driver](images/downlight.jpg)
+
+<span class="clc-fixture-caption">Downlight</span>
+</div>
+</div>
 
 Recessed ceiling lights that direct light downward.
 
@@ -346,17 +428,39 @@ Recessed ceiling lights that direct light downward.
 
 #### 6. Wall Packs
 
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![Adjustable LED wall pack, bronze housing](images/wall-pack-adjustable.jpg)
+
+<span class="clc-fixture-caption">Adjustable wall pack</span>
+</div>
+<div class="clc-fixture-photo">
+
+![Standard LED wall pack, bronze housing](images/wall-pack-standard.jpg)
+
+<span class="clc-fixture-caption">Standard wall pack</span>
+</div>
+</div>
+
 Wall-mounted outdoor fixtures for building perimeters. Every commercial building has them.
 
 **Types:** Full cutoff (dark sky compliant ✅), Semi-cutoff, Adjustable
 
 **Typical specs:** 20–120W | 4000–5000K CCT (most common) | IP65 minimum
 
-> ⚠️ Many municipalities now **require full cutoff** fixtures. Always check local requirements.
-
 ---
 
 #### 7. Garage Canopy Light
+
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![LED garage/canopy light, surface-mounted with clear lens](images/garage-canopy.jpg)
+
+<span class="clc-fixture-caption">Garage / canopy light</span>
+</div>
+</div>
 
 Surface-mounted for canopies, overhangs, and garage use. Often operates 24/7/365.
 
@@ -432,7 +536,9 @@ Activate during power outages to illuminate exit paths.
 
 ---
 
-## Module 1 Quiz
+</details>
+
+## Module 1 Quiz :id=quiz
 
 Test your understanding of this module — 80% (8 of 10) required to pass.
 
@@ -440,7 +546,7 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ---
 
-## Key Takeaways
+## Key Takeaways :id=key-takeaways
 
 - ✅ Lumens = brightness, Watts = power consumption (not the same thing)
 - ✅ Efficacy (lm/W) is how you compare fixture efficiency
@@ -451,24 +557,26 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ---
 
-## Glossary
+## Glossary :id=glossary
 
-**Lumen (lm):** Total light output from a source
-**Watt (W):** Electrical power consumption
-**Efficacy (lm/W):** Efficiency measurement (lumens per watt)
-**Foot-candle (fc):** Light level on a surface
-**Lux:** Metric equivalent of foot-candle (1 fc ≈ 10.76 lux)
-**CCT (Correlated Color Temperature):** Color appearance of white light, measured in Kelvin
-**CRI (Color Rendering Index):** Accuracy of color appearance (0–100 scale)
-**IES (Illuminating Engineering Society):** Technical authority that publishes lighting standards
-**LED:** Light Emitting Diode — solid-state lighting technology
-**Troffer:** Recessed fixture that fits in a ceiling grid
-**High Bay:** Fixture for high-ceiling applications (15+ feet)
-**Wall Pack:** Wall-mounted outdoor fixture
-**Garage/Canopy Light:** Surface-mounted fixture for covered or garage areas
-**Area Light:** Parking lot fixture
-**Exit Sign:** Code-required signage for emergency egress
-**Emergency Light:** Battery-backup lighting for power outages
+| Term | Definition |
+|---|---|
+| Lumen (lm) | Total light output from a source |
+| Watt (W) | Electrical power consumption |
+| Efficacy (lm/W) | Efficiency measurement (lumens per watt) |
+| Foot-candle (fc) | Light level on a surface |
+| Lux | Metric equivalent of foot-candle (1 fc ≈ 10.76 lux) |
+| CCT (Correlated Color Temperature) | Color appearance of white light, measured in Kelvin |
+| CRI (Color Rendering Index) | Accuracy of color appearance (0–100 scale) |
+| IES (Illuminating Engineering Society) | Technical authority that publishes lighting standards |
+| LED | Light Emitting Diode — solid-state lighting technology |
+| Troffer | Recessed fixture that fits in a ceiling grid |
+| High Bay | Fixture for high-ceiling applications (15+ feet) |
+| Wall Pack | Wall-mounted outdoor fixture |
+| Garage/Canopy Light | Surface-mounted fixture for covered or garage areas |
+| Area Light | Parking lot fixture |
+| Exit Sign | Code-required signage for emergency egress |
+| Emergency Light | Battery-backup lighting for power outages |
 
 ---
 

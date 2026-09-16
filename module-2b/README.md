@@ -20,14 +20,17 @@ Lighting controls can add 30–60% additional energy savings on top of an LED up
 
 | # | Lesson | Topics Covered |
 |---|--------|---------------|
-| 1 | [Why Controls Matter & Basic Control Types](#lesson-1-why-controls-matter-basic-control-types) | Energy savings potential, manual switches, timers, occupancy/daylight sensors, dimmers |
-| 2 | [Occupancy & Vacancy Sensors](#lesson-2-occupancy-vacancy-sensors) | PIR, ultrasonic, dual-tech, occupancy vs. vacancy mode |
-| 3 | [Daylight, Time-Based & Multi-Level Controls](#lesson-3-daylight-time-based-multi-level-controls) | Time clocks, daylight harvesting, multi-level switching, task tuning |
-| 4 | [Networked Lighting Controls](#lesson-4-networked-lighting-controls) | Wired vs. wireless, DALI/BACnet, Bluetooth Mesh, Zigbee, PoE |
+| 1 | [Why Controls Matter & Basic Control Types](#lesson-1) | Energy savings potential, manual switches, timers, occupancy/daylight sensors, dimmers |
+| 2 | [Occupancy & Vacancy Sensors](#lesson-2) | PIR, ultrasonic, dual-tech, occupancy vs. vacancy mode |
+| 3 | [Daylight, Time-Based & Multi-Level Controls](#lesson-3) | Time clocks, daylight harvesting, multi-level switching, task tuning |
+| 4 | [Networked Lighting Controls](#lesson-4) | Wired vs. wireless, DALI/BACnet, Bluetooth Mesh, Zigbee, PoE |
 
 ---
 
-## Lesson 1: Why Controls Matter & Basic Control Types
+## Lesson 1: Why Controls Matter & Basic Control Types :id=lesson-1
+
+<details class="clc-lesson-details" open>
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### Why Controls Matter
 
@@ -47,7 +50,12 @@ Energy codes increasingly REQUIRE controls, rebates often require them for the m
 
 ---
 
-## Lesson 2: Occupancy & Vacancy Sensors
+</details>
+
+## Lesson 2: Occupancy & Vacancy Sensors :id=lesson-2
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### Occupancy Sensors Explained
 
@@ -70,7 +78,12 @@ Some energy codes REQUIRE vacancy mode in certain spaces to prevent unnecessary 
 
 ---
 
-## Lesson 3: Daylight, Time-Based & Multi-Level Controls
+</details>
+
+## Lesson 3: Daylight, Time-Based & Multi-Level Controls :id=lesson-3
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 ### Time-Based Controls
 
@@ -97,7 +110,12 @@ Reducing light levels to the appropriate amount for the task, rather than over-l
 
 ---
 
-## Lesson 4: Networked Lighting Controls
+</details>
+
+## Lesson 4: Networked Lighting Controls :id=lesson-4
+
+<details class="clc-lesson-details">
+<summary class="clc-lesson-summary">Show / hide this lesson</summary>
 
 Advanced systems where all fixtures and sensors communicate via a network, enabling central control from a computer or app, scheduling by zone, real-time occupancy data, energy usage monitoring, and integration with building automation. Examples: DALI networks, BACnet integration, proprietary systems (Lutron, Acuity Controls).
 
@@ -125,7 +143,9 @@ Networked systems are best for large commercial buildings, campuses, buildings w
 
 ---
 
-## Module 2B Quiz
+</details>
+
+## Module 2B Quiz :id=quiz
 
 Test your understanding of this module — 80% (8 of 10) required to pass.
 
@@ -133,7 +153,7 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ---
 
-## Key Takeaways
+## Key Takeaways :id=key-takeaways
 
 - ✅ Controls add 30–60% additional savings beyond the LED upgrade itself
 - ✅ PIR for clear-motion spaces, ultrasonic for stillness/obstructions, dual-tech when reliability matters most
@@ -144,21 +164,23 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ---
 
-## Glossary
+## Glossary :id=glossary
 
-**Occupancy Sensor:** Detects presence and controls lighting automatically
-**Vacancy Sensor / Mode:** Manual-on, auto-off control — prevents nuisance activation
-**PIR:** Passive Infrared sensor (detects heat/movement)
-**Ultrasonic:** Sensor using sound waves to detect movement
-**Dual-Technology Sensor:** Combines PIR + Ultrasonic for reliability
-**Daylight Harvesting:** Dimming electric lights when daylight is sufficient
-**Multi-Level Switching:** Ability to reduce lighting power by at least 50%
-**Task Tuning:** Reducing light to appropriate levels within the IES range
-**DALI:** Digital dimming protocol with individual fixture addressability
-**BACnet:** Integration protocol connecting lighting with HVAC/security systems
-**Bluetooth Mesh:** Wireless fixture control via a mesh network of fixtures
-**Zigbee:** Low-power wireless protocol for building automation
-**PoE (Power over Ethernet):** Delivers power and data through Ethernet cables
+| Term | Definition |
+|---|---|
+| Occupancy Sensor | Detects presence and controls lighting automatically |
+| Vacancy Sensor / Mode | Manual-on, auto-off control — prevents nuisance activation |
+| PIR | Passive Infrared sensor (detects heat/movement) |
+| Ultrasonic | Sensor using sound waves to detect movement |
+| Dual-Technology Sensor | Combines PIR + Ultrasonic for reliability |
+| Daylight Harvesting | Dimming electric lights when daylight is sufficient |
+| Multi-Level Switching | Ability to reduce lighting power by at least 50% |
+| Task Tuning | Reducing light to appropriate levels within the IES range |
+| DALI | Digital dimming protocol with individual fixture addressability |
+| BACnet | Integration protocol connecting lighting with HVAC/security systems |
+| Bluetooth Mesh | Wireless fixture control via a mesh network of fixtures |
+| Zigbee | Low-power wireless protocol for building automation |
+| PoE (Power over Ethernet) | Delivers power and data through Ethernet cables |
 
 ---
 
