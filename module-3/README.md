@@ -532,20 +532,22 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ## Glossary
 
-**NEC (National Electrical Code):** NFPA 70 — sets electrical safety standards
-**NFPA 101 (Life Safety Code):** Building fire safety and egress requirements
-**ASHRAE 90.1:** Energy standard for commercial buildings
-**IECC (International Energy Conservation Code):** Model energy code
-**Title 24:** California energy code (most stringent in the U.S.)
-**LPD (Lighting Power Density):** Watts per square foot (W/sq ft)
-**UL (Underwriters Laboratories):** Safety testing and certification organization
-**ETL (Intertek):** Safety testing organization, equivalent to UL
-**DLC (DesignLights Consortium):** LED product quality verification for rebates
-**DLC Premium:** Higher efficiency tier, qualifies for maximum rebates
-**IP Rating:** Ingress Protection — dust and water resistance
-**IK Rating:** Impact Protection — mechanical impact resistance
-**IC-Rated:** Fixture can be in direct contact with insulation
-**NRTL (Nationally Recognized Testing Laboratory):** Organization authorized to test for safety
+| Term | Definition |
+|---|---|
+| NEC (National Electrical Code) | NFPA 70 — sets electrical safety standards |
+| NFPA 101 (Life Safety Code) | Building fire safety and egress requirements |
+| ASHRAE 90.1 | Energy standard for commercial buildings |
+| IECC (International Energy Conservation Code) | Model energy code |
+| Title 24 | California energy code (most stringent in the U.S.) |
+| LPD (Lighting Power Density) | Watts per square foot (W/sq ft) |
+| UL (Underwriters Laboratories) | Safety testing and certification organization |
+| ETL (Intertek) | Safety testing organization, equivalent to UL |
+| DLC (DesignLights Consortium) | LED product quality verification for rebates |
+| DLC Premium | Higher efficiency tier, qualifies for maximum rebates |
+| IP Rating | Ingress Protection — dust and water resistance |
+| IK Rating | Impact Protection — mechanical impact resistance |
+| IC-Rated | Fixture can be in direct contact with insulation |
+| NRTL (Nationally Recognized Testing Laboratory) | Organization authorized to test for safety |
 
 ---
 

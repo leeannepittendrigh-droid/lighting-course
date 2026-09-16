@@ -453,22 +453,24 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ## Glossary
 
-**Lumen (lm):** Total light output from a source
-**Watt (W):** Electrical power consumption
-**Efficacy (lm/W):** Efficiency measurement (lumens per watt)
-**Foot-candle (fc):** Light level on a surface
-**Lux:** Metric equivalent of foot-candle (1 fc ≈ 10.76 lux)
-**CCT (Correlated Color Temperature):** Color appearance of white light, measured in Kelvin
-**CRI (Color Rendering Index):** Accuracy of color appearance (0–100 scale)
-**IES (Illuminating Engineering Society):** Technical authority that publishes lighting standards
-**LED:** Light Emitting Diode — solid-state lighting technology
-**Troffer:** Recessed fixture that fits in a ceiling grid
-**High Bay:** Fixture for high-ceiling applications (15+ feet)
-**Wall Pack:** Wall-mounted outdoor fixture
-**Garage/Canopy Light:** Surface-mounted fixture for covered or garage areas
-**Area Light:** Parking lot fixture
-**Exit Sign:** Code-required signage for emergency egress
-**Emergency Light:** Battery-backup lighting for power outages
+| Term | Definition |
+|---|---|
+| Lumen (lm) | Total light output from a source |
+| Watt (W) | Electrical power consumption |
+| Efficacy (lm/W) | Efficiency measurement (lumens per watt) |
+| Foot-candle (fc) | Light level on a surface |
+| Lux | Metric equivalent of foot-candle (1 fc ≈ 10.76 lux) |
+| CCT (Correlated Color Temperature) | Color appearance of white light, measured in Kelvin |
+| CRI (Color Rendering Index) | Accuracy of color appearance (0–100 scale) |
+| IES (Illuminating Engineering Society) | Technical authority that publishes lighting standards |
+| LED | Light Emitting Diode — solid-state lighting technology |
+| Troffer | Recessed fixture that fits in a ceiling grid |
+| High Bay | Fixture for high-ceiling applications (15+ feet) |
+| Wall Pack | Wall-mounted outdoor fixture |
+| Garage/Canopy Light | Surface-mounted fixture for covered or garage areas |
+| Area Light | Parking lot fixture |
+| Exit Sign | Code-required signage for emergency egress |
+| Emergency Light | Battery-backup lighting for power outages |
 
 ---
 

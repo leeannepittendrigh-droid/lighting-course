@@ -146,19 +146,21 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ## Glossary
 
-**Occupancy Sensor:** Detects presence and controls lighting automatically
-**Vacancy Sensor / Mode:** Manual-on, auto-off control — prevents nuisance activation
-**PIR:** Passive Infrared sensor (detects heat/movement)
-**Ultrasonic:** Sensor using sound waves to detect movement
-**Dual-Technology Sensor:** Combines PIR + Ultrasonic for reliability
-**Daylight Harvesting:** Dimming electric lights when daylight is sufficient
-**Multi-Level Switching:** Ability to reduce lighting power by at least 50%
-**Task Tuning:** Reducing light to appropriate levels within the IES range
-**DALI:** Digital dimming protocol with individual fixture addressability
-**BACnet:** Integration protocol connecting lighting with HVAC/security systems
-**Bluetooth Mesh:** Wireless fixture control via a mesh network of fixtures
-**Zigbee:** Low-power wireless protocol for building automation
-**PoE (Power over Ethernet):** Delivers power and data through Ethernet cables
+| Term | Definition |
+|---|---|
+| Occupancy Sensor | Detects presence and controls lighting automatically |
+| Vacancy Sensor / Mode | Manual-on, auto-off control — prevents nuisance activation |
+| PIR | Passive Infrared sensor (detects heat/movement) |
+| Ultrasonic | Sensor using sound waves to detect movement |
+| Dual-Technology Sensor | Combines PIR + Ultrasonic for reliability |
+| Daylight Harvesting | Dimming electric lights when daylight is sufficient |
+| Multi-Level Switching | Ability to reduce lighting power by at least 50% |
+| Task Tuning | Reducing light to appropriate levels within the IES range |
+| DALI | Digital dimming protocol with individual fixture addressability |
+| BACnet | Integration protocol connecting lighting with HVAC/security systems |
+| Bluetooth Mesh | Wireless fixture control via a mesh network of fixtures |
+| Zigbee | Low-power wireless protocol for building automation |
+| PoE (Power over Ethernet) | Delivers power and data through Ethernet cables |
 
 ---
 

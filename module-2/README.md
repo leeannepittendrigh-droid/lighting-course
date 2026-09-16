@@ -644,27 +644,29 @@ Test your understanding of this module — 80% (8 of 10) required to pass.
 
 ## Glossary
 
-**Voltage (V):** Electrical pressure that pushes current through wires
-**Current (A):** Flow of electricity, measured in amps or milliamps
-**Power (W):** Work being done, measured in watts (Volts × Amps)
-**AC (Alternating Current):** Power from wall outlets, alternates direction
-**DC (Direct Current):** Power that flows in one direction — what LEDs use
-**Driver:** Converts AC to DC and regulates power for LEDs
-**Constant Current Driver:** Maintains a fixed current output; most common in complete fixtures
-**Constant Voltage Driver:** Maintains a fixed voltage; used for LED tape/strips
-**0–10V Dimming:** Analog dimming protocol, most common for commercial
-**DALI:** Digital dimming protocol with individual fixture addressability
-**TRIAC Dimming:** Phase-cut dimming for residential applications
-**DMX512:** Digital protocol for entertainment/color-changing lighting
-**Beam Angle:** Cone angle where light drops to 50% of peak intensity
-**Field Angle:** Cone angle where light drops to 10% of peak intensity
-**Distribution Type:** IES classification for outdoor light patterns (Type I–V)
-**Power Factor (PF):** Ratio of useful power to total power (want ≥ 0.90)
-**Total Harmonic Distortion (THD):** Measure of power quality (want < 20%)
-**IES File:** Standardized photometric data file (.ies extension)
-**Candela (cd):** Light intensity in a specific direction
-**Polar Curve:** Graph showing light distribution by angle
-**Spacing Criteria (SC):** Maximum spacing-to-mounting-height ratio
+| Term | Definition |
+|---|---|
+| Voltage (V) | Electrical pressure that pushes current through wires |
+| Current (A) | Flow of electricity, measured in amps or milliamps |
+| Power (W) | Work being done, measured in watts (Volts × Amps) |
+| AC (Alternating Current) | Power from wall outlets, alternates direction |
+| DC (Direct Current) | Power that flows in one direction — what LEDs use |
+| Driver | Converts AC to DC and regulates power for LEDs |
+| Constant Current Driver | Maintains a fixed current output; most common in complete fixtures |
+| Constant Voltage Driver | Maintains a fixed voltage; used for LED tape/strips |
+| 0–10V Dimming | Analog dimming protocol, most common for commercial |
+| DALI | Digital dimming protocol with individual fixture addressability |
+| TRIAC Dimming | Phase-cut dimming for residential applications |
+| DMX512 | Digital protocol for entertainment/color-changing lighting |
+| Beam Angle | Cone angle where light drops to 50% of peak intensity |
+| Field Angle | Cone angle where light drops to 10% of peak intensity |
+| Distribution Type | IES classification for outdoor light patterns (Type I–V) |
+| Power Factor (PF) | Ratio of useful power to total power (want ≥ 0.90) |
+| Total Harmonic Distortion (THD) | Measure of power quality (want < 20%) |
+| IES File | Standardized photometric data file (.ies extension) |
+| Candela (cd) | Light intensity in a specific direction |
+| Polar Curve | Graph showing light distribution by angle |
+| Spacing Criteria (SC) | Maximum spacing-to-mounting-height ratio |
 
 ---
 
