@@ -299,6 +299,15 @@ Recessed fixtures that fit into drop ceiling grids. This style dates back almost
 
 #### 2. Panels (Flat Panels)
 
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![2x2 ft LED flat panel fixture, recessed ceiling mount](images/panel.jpg)
+
+<span class="clc-fixture-caption">Flat panel</span>
+</div>
+</div>
+
 Surface-mounted or suspended ultra-thin fixtures.
 
 **Advantages:** Modern aesthetic, even light distribution, easy to install, thin profile (typically 0.5–2 inches thick).
@@ -310,6 +319,21 @@ Surface-mounted or suspended ultra-thin fixtures.
 ---
 
 #### 3. High Bays
+
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![UFO LED high bay fixture, black housing with hook mount](images/high-bay.jpg)
+
+<span class="clc-fixture-caption">UFO high bay</span>
+</div>
+<div class="clc-fixture-photo">
+
+![Linear LED high bay fixture, white housing](images/linear-high-bay.jpg)
+
+<span class="clc-fixture-caption">Linear high bay</span>
+</div>
+</div>
 
 For spaces with ceilings 15 feet and above. Replacing metal halide high bays with LED is one of the highest ROI projects in commercial lighting — often payback under 2 years.
 
@@ -344,6 +368,15 @@ Long, narrow fixtures for continuous lighting.
 ---
 
 #### 5. Downlights
+
+<div class="clc-fixture-photo-row">
+<div class="clc-fixture-photo">
+
+![Recessed LED downlight with remote driver](images/downlight.jpg)
+
+<span class="clc-fixture-caption">Downlight</span>
+</div>
+</div>
 
 Recessed ceiling lights that direct light downward.
 

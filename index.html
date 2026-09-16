@@ -456,6 +456,49 @@
     }
 
     /* ============================================================
+       FIXTURE PHOTOS
+       Small reference photos (e.g. Module 1's fixture-type lesson),
+       shown in a light card so product shots on a white background
+       stay legible instead of blending into the page.
+       ============================================================ */
+    .markdown-section img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+
+    .clc-fixture-photo-row {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 20px !important;
+      margin: 14px 0 20px !important;
+    }
+
+    .clc-fixture-photo {
+      flex: 0 1 200px !important;
+      text-align: center !important;
+    }
+
+    .clc-fixture-photo img {
+      display: block !important;
+      width: 200px !important;
+      height: 200px !important;
+      object-fit: contain !important;
+      background: var(--bg) !important;
+      border: 1px solid var(--border) !important;
+      border-radius: var(--radius) !important;
+      padding: 10px !important;
+      margin: 0 auto !important;
+    }
+
+    .clc-fixture-caption {
+      display: block !important;
+      font-size: 0.78rem !important;
+      font-weight: 600 !important;
+      color: var(--text-muted) !important;
+      margin-top: 8px !important;
+    }
+
+    /* ============================================================
        PAGE TYPOGRAPHY
        ============================================================ */
     .markdown-section h1 {
