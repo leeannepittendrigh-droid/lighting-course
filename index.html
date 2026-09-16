@@ -1452,6 +1452,35 @@
             var pageId = (window.location.hash || '#/').replace(/^#/, '').split('?')[0] || '/';
             window.clcRenderFeedback(container, pageId);
           });
+        },
+        /* Jumping to a lesson (from the "Lessons in This Module" table,
+           search results, or any #lesson-N link) should open that
+           lesson's collapsed <details> — otherwise you land on a
+           heading with nothing visible underneath it. */
+        function(hook) {
+          function openTargetLesson() {
+            var hash = window.location.hash || '';
+            var id;
+            var m = hash.match(/[?&]id=([^&]+)/);
+            if (m) {
+              id = decodeURIComponent(m[1]);
+            } else {
+              id = hash.replace(/^#\/?/, '').split('?')[0];
+            }
+            if (!id) return;
+            var heading = document.getElementById(id);
+            if (!heading) return;
+            var details = heading.nextElementSibling;
+            if (details && details.tagName === 'DETAILS' && details.classList.contains('clc-lesson-details')) {
+              details.open = true;
+            }
+          }
+          hook.doneEach(function() {
+            openTargetLesson();
+          });
+          hook.mounted(function() {
+            window.addEventListener('hashchange', openTargetLesson);
+          });
         }
       ]
     }
