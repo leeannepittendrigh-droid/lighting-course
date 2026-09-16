@@ -381,9 +381,15 @@ The classic bell-shaped look can still be achieved on a UFO high bay using a pol
 </div>
 <div class="clc-fixture-photo">
 
-![Architectural linear LED fixture with built-in sensor, as used for a stairwell](images/stairwell-light.jpg)
+![Stairwell LED linear fixture with built-in occupancy sensor](images/stairwell-light.jpg)
 
-<span class="clc-fixture-caption">Architectural linear (stairwell)</span>
+<span class="clc-fixture-caption">Stairwell light (built-in sensor)</span>
+</div>
+<div class="clc-fixture-photo">
+
+![Architectural linear LED fixture, surface-mounted](images/architectural-linear.jpg)
+
+<span class="clc-fixture-caption">Architectural linear</span>
 </div>
 </div>
 
