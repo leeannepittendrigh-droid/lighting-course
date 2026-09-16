@@ -449,8 +449,6 @@ Wall-mounted outdoor fixtures for building perimeters. Every commercial building
 
 **Typical specs:** 20–120W | 4000–5000K CCT (most common) | IP65 minimum
 
-> ⚠️ Many municipalities now **require full cutoff** fixtures. Always check local requirements.
-
 ---
 
 #### 7. Garage Canopy Light
