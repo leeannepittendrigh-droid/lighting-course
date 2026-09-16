@@ -62,12 +62,6 @@ Think of electricity like water flowing through pipes:
 
 ---
 
-<div class="clc-lesson-nav">
-
-**Jump to:** [Lesson 1](#lesson-1) &middot; [Lesson 2](#lesson-2) &middot; [Lesson 3](#lesson-3) &middot; [Lesson 4](#lesson-4) &middot; [Lesson 5](#lesson-5) &middot; [Lesson 6](#lesson-6) &middot; [Lesson 7](#lesson-7) &middot; [Quiz](#quiz) &middot; [Key Takeaways](#key-takeaways) &middot; [Glossary](#glossary)
-
-</div>
-
 ## Lesson 1: Reading Specification Sheets :id=lesson-1
 
 <details class="clc-lesson-details" open>

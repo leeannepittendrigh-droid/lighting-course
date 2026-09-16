@@ -25,12 +25,6 @@ As an importer of commercial lighting products, you need to speak the language o
 
 ---
 
-<div class="clc-lesson-nav">
-
-**Jump to:** [Lesson 1](#lesson-1) &middot; [Lesson 2](#lesson-2) &middot; [Lesson 3](#lesson-3) &middot; [Quiz](#quiz) &middot; [Key Takeaways](#key-takeaways) &middot; [Glossary](#glossary)
-
-</div>
-
 ## Lesson 1: Units of Measurement & Standards :id=lesson-1
 
 <details class="clc-lesson-details" open>

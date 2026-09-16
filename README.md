@@ -70,7 +70,7 @@
 
 <div class="course-meta">
   <div class="course-meta-item">📋 <strong>4 modules</strong></div>
-  <div class="course-meta-item">⏱ <strong>9–11.5 hours total</strong></div>
+  <div class="course-meta-item">⏱ <strong>9–11 hours total</strong></div>
   <div class="course-meta-item">✅ <strong>80% to pass each quiz</strong></div>
   <div class="course-meta-item">🔍 <a href="#/glossary/" style="color:inherit">Searchable glossary</a></div>
   <div class="course-meta-item">📖 <strong>Work through in order</strong></div>

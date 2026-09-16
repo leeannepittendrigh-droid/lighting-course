@@ -27,12 +27,6 @@ Lighting controls can add 30–60% additional energy savings on top of an LED up
 
 ---
 
-<div class="clc-lesson-nav">
-
-**Jump to:** [Lesson 1](#lesson-1) &middot; [Lesson 2](#lesson-2) &middot; [Lesson 3](#lesson-3) &middot; [Lesson 4](#lesson-4) &middot; [Quiz](#quiz) &middot; [Key Takeaways](#key-takeaways) &middot; [Glossary](#glossary)
-
-</div>
-
 ## Lesson 1: Why Controls Matter & Basic Control Types :id=lesson-1
 
 <details class="clc-lesson-details" open>
