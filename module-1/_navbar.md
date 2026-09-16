@@ -1,5 +1,5 @@
 - [← All Modules](/)
 - **Module 1**
-- [Lesson 1 — Units & Standards](/module-1/#lesson-1-units-of-measurement-standards)
-- [Lesson 2 — Technologies](/module-1/#lesson-2-lighting-technologies)
-- [Lesson 3 — Fixture Types](/module-1/#lesson-3-fixture-types)
+- [Lesson 1 — Units & Standards](/module-1/#lesson-1)
+- [Lesson 2 — Technologies](/module-1/#lesson-2)
+- [Lesson 3 — Fixture Types](/module-1/#lesson-3)

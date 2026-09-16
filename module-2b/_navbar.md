@@ -1,6 +1,6 @@
 - [← All Modules](/)
 - **Module 2B**
-- [Lesson 1 — Why Controls Matter](/module-2b/#lesson-1-why-controls-matter-basic-control-types)
-- [Lesson 2 — Occupancy Sensors](/module-2b/#lesson-2-occupancy-vacancy-sensors)
-- [Lesson 3 — Daylight & Multi-Level](/module-2b/#lesson-3-daylight-time-based-multi-level-controls)
-- [Lesson 4 — Networked Controls](/module-2b/#lesson-4-networked-lighting-controls)
+- [Lesson 1 — Why Controls Matter](/module-2b/#lesson-1)
+- [Lesson 2 — Occupancy Sensors](/module-2b/#lesson-2)
+- [Lesson 3 — Daylight & Multi-Level](/module-2b/#lesson-3)
+- [Lesson 4 — Networked Controls](/module-2b/#lesson-4)
