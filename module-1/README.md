@@ -294,7 +294,7 @@ Still common in many buildings — understand it to identify retrofit opportunit
 
 Recessed fixtures that fit into drop ceiling grids. This style dates back almost as far as the invention of ceiling grids and remains very popular — troffers are the most common fixture type in commercial buildings.
 
-**Common sizes:** 2×4 ft (most common), 2×2 ft *(not currently stocked)*, 1×4 ft *(not currently stocked)*
+**Common sizes:** 2×4 ft (most common), 2×2 ft (also stocked), 1×4 ft *(not currently stocked)*
 
 **Types:**
 - **Volumetric (prismatic lens)** — Traditional look, most cost-effective. Currently the only troffer type we stock.
@@ -302,7 +302,7 @@ Recessed fixtures that fit into drop ceiling grids. This style dates back almost
 
 **Typical specs:** 3,000–5,000 lm | 30–45W | 4000K | 80+ CRI
 
-**Project relevance:** When specifying troffers, keep in mind what types and sizes we currently offer before recommending a product we don't sell — right now that's Volumetric, 2×4 ft.
+**Project relevance:** When specifying troffers, keep in mind what types and sizes we currently offer before recommending a product we don't sell — right now that's Volumetric, in 2×4 ft and 2×2 ft.
 
 ---
 
@@ -350,7 +350,7 @@ For spaces with ceilings 15 feet and above. Replacing metal halide high bays wit
 - **UFO (round)** — Compact, most popular style. Often comes standard with a hook mount.
 - **Linear** — Narrow fixtures for warehouse aisles, directing light along the aisle length. Because these are now LED, the form factor is a bit stubbier than the long fluorescent-style linear high bays of the past.
 
-The classic bell-shaped look can still be achieved on a UFO high bay using a polycarbonate (PC) reflector accessory, which directs light downward and limits the beam angle.
+The classic bell-shaped look can still be achieved on a UFO high bay using a polycarbonate (PC) reflector accessory, which directs light downward and limits the beam angle. *(We do not currently source or order this accessory — informational only.)*
 
 **Lumen guide by ceiling height:**
 | Ceiling Height | Lumens Needed |
@@ -393,12 +393,16 @@ The classic bell-shaped look can still be achieved on a UFO high bay using a pol
 </div>
 </div>
 
-Long, narrow fixtures for continuous lighting.
+Long, narrow fixtures for continuous lighting. The category covers everything from bare utility strips to finished architectural fixtures, and the application and light quality vary a lot within it — worth understanding before recommending one over another.
 
 **Types:**
-- **Strip** — General purpose, cost-effective lighting
-- **Vapor-tight** — Sealed for harsh/wet environments (IP65/66)
-- **Architectural linear** — Sleek, high-end continuous lighting
+- **Strip** — General purpose, cost-effective, direct-down distribution only (an open or lensed channel, no ceiling-facing light). Best for utility spaces where appearance doesn't matter: storage, back-of-house, mechanical/electrical rooms, basic warehouse runs.
+- **Vapor-tight** — Sealed housing (IP65/66) for harsh or wet environments — food/beverage processing, parking garages, car washes, walk-in coolers, covered outdoor areas.
+- **Architectural linear** — Sleek, finished continuous lighting for offices, lobbies, corridors, and retail, where the fixture itself is part of the design rather than just utility. Distribution and light quality vary by configuration:
+  - **Direct** — All light down, similar to a strip light but in a more finished housing
+  - **Direct/indirect** — Light both down and up; softer, more even look with less glare and ceiling shadowing — common in open offices
+  - **Uplight** — Light bounced off the ceiling only, for ambient/indirect wash lighting with no visible glare source
+  - *(Confirm which architectural linear configurations we currently source before quoting a specific one — not all may be stocked.)*
 - **Wraparound** — Basic enclosed fixture, more dated and largely replaced by Strip lights. *Not currently sourcing this type.*
 
 ---
@@ -418,7 +422,7 @@ Recessed ceiling lights that direct light downward.
 
 **Common sizes:** 4", 6", 8" diameter
 
-**Types:** Fixed, Adjustable (aimable), Gimbal (rotates + tilts)
+**Types:** Fixed, Adjustable (aimable), Gimbal (rotates + tilts) *(not currently sourced or ordered)*
 
 **Beam angles:** Narrow 25–40° (accent), Medium 40–60° (general), Wide 60–120° (area)
 
@@ -464,9 +468,9 @@ Wall-mounted outdoor fixtures for building perimeters. Every commercial building
 
 Surface-mounted for canopies, overhangs, and garage use. Often operates 24/7/365.
 
-**Critical ratings:**
+**Critical ratings to look for:**
 - **IP65/66** — Weatherproofing (rain, dust, temperature extremes)
-- **IK08/10** — Impact resistance (vehicles, equipment, vandalism)
+- **IK08/10** — Impact resistance (vehicles, equipment, vandalism); this is the industry-recommended range for this application, but *LFI's own canopy light has not yet had its IK rating confirmed with the vendor — verify before quoting on impact-resistance requirements.*
 
 > ⚠️ Never compromise on quality for canopy/garage lights. The cost of failures far exceeds savings on cheap fixtures.
 

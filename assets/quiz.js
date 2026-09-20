@@ -58,9 +58,9 @@ window.CLC_QUIZZES = {
         correct: 2
       },
       {
-        q: 'What size and type of troffer does LFI currently stock?',
-        choices: ['2×2 ft, Direct/Indirect', '2×4 ft, Volumetric', '1×4 ft, Volumetric', '2×4 ft, Direct/Indirect'],
-        correct: 1
+        q: 'What size(s) and type of troffer does LFI currently stock?',
+        choices: ['2×2 ft and 2×4 ft, Volumetric', '2×4 ft only, Direct/Indirect', '1×4 ft and 2×4 ft, Volumetric', '2×2 ft only, Volumetric'],
+        correct: 0
       }
     ]
   },
